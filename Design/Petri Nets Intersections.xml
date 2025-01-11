@@ -7783,19 +7783,6 @@
             <arcpath id="001" x="957" y="67" curvePoint="false"/>
             <type value="normal"/>
         </arc>
-        <arc id="P7 to T7" source="P7" target="T7">
-            <graphics/>
-            <inscription>
-                <value>1</value>
-                <graphics/>
-            </inscription>
-            <tagged>
-                <value>false</value>
-            </tagged>
-            <arcpath id="000" x="958" y="136" curvePoint="false"/>
-            <arcpath id="001" x="962" y="177" curvePoint="false"/>
-            <type value="normal"/>
-        </arc>
         <arc id="P80 to T101" source="P80" target="T101">
             <graphics/>
             <inscription>
@@ -9778,7 +9765,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="952" y="176" curvePoint="false"/>
+            <arcpath id="000" x="957" y="177" curvePoint="false"/>
             <arcpath id="001" x="957" y="136" curvePoint="false"/>
             <type value="normal"/>
         </arc>
