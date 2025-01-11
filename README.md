@@ -8,3 +8,4 @@ This project focuses on designing and simulating the control system for two traf
 
 The project uses Petri Nets as the core modeling tool for system representation, providing a clear, modular, and scalable framework for traffic management. Simulation and testing validate the effectiveness of the control system under varying traffic conditions.
 
+s
