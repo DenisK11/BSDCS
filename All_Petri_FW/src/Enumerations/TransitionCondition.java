@@ -20,11 +20,18 @@ public enum TransitionCondition implements Serializable{
 	HaveCar,
 	HaveREL,
 	SubPetriStopped,
+	HavePriorityCar,
+	IsPriorityCar,
+	isBus,
+	isTaxi,
+	HaveBus,
+	HaveTaxi,
+
 	
 	Equal_FloatFloat,            //the transition conditions for floatfloat
 	MoreThan_FloatFloat,         //the transition conditions for floatfloat
 	MoreThanOrEqual_FloatFloat,  //the transition conditions for floatfloat
 	LessThan_FloatFloat,         //the transition conditions for floatfloat
 	LessThanOrEqual_FloatFloat,  //the transition conditions for floatfloat
-	FLRS
+	IsBus, IsTaxi, FLRS
 }
