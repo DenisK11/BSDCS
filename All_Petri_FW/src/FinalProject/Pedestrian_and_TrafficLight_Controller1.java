@@ -7,34 +7,30 @@ import DataOnly.TransferOperation;
 import Enumerations.TransitionCondition;
 import Enumerations.TransitionOperation;
 
-public class Pedestrian_and_TrafficLight_Controller {
+public class Pedestrian_and_TrafficLight_Controller1 {
 
 	public static void main (String []args) {
 		PetriNet pn = new PetriNet();
-		pn.PetriNetName = "Controller";
-		pn.SetName("Controller");
+		pn.PetriNetName = "PedestrianController";
+		pn.SetName("PedestrianController");
 		pn.NetworkPort = 1081;
 		
 		DataString ini = new DataString();
-		//ini.Printable = false;
 		ini.SetName("ini");
 		ini.SetValue("red");
 		pn.ConstantPlaceList.add(ini);
 		
 		DataString red = new DataString();
-		//red.Printable = false;
 		red.SetName("red");
 		red.SetValue("red");
 		pn.ConstantPlaceList.add(red);
 		
 		DataString green = new DataString();
-		//green.Printable = false;
 		green.SetName("green");
 		green.SetValue("green");
 		pn.ConstantPlaceList.add(green);
 		
 		DataString yellow = new DataString();
-		//yellow.Printable = false;
 		yellow.SetName("yellow");
 		yellow.SetValue("yellow");
 		pn.ConstantPlaceList.add(yellow);
@@ -215,10 +211,5 @@ public class Pedestrian_and_TrafficLight_Controller {
 		PetriNetWindow frame = new PetriNetWindow(false);
 		frame.petriNet = pn;
 		frame.setVisible(true);
-		
-		
-			
-		
-		
 	}
 }
