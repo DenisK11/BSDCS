@@ -1,7 +1,6 @@
 package FinalProject;
 
 import Components.*;
-import DataObjects.DataInteger;
 import DataObjects.DataString;
 import DataObjects.DataTransfer;
 import DataOnly.TransferOperation;
@@ -9,13 +8,13 @@ import Enumerations.LogicConnector;
 import Enumerations.TransitionCondition;
 import Enumerations.TransitionOperation;
 
-public class Pedestrian_and_TrafficLight_Controller1 {
+public class Pedestrian_and_TrafficLight_Controller2 {
 
 	public static void main (String []args) {
 		PetriNet pn = new PetriNet();
 		pn.PetriNetName = "PedestrianController";
 		pn.SetName("PedestrianController");
-		pn.NetworkPort = 1081;
+		pn.NetworkPort = 1085;
 
 		DataString p1 = new DataString();
 		p1.SetName("p1");
