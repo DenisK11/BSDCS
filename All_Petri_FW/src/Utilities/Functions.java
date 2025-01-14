@@ -38,6 +38,31 @@ public class Functions implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	public boolean HavePriority(PetriTransition t, ArrayList<DataCar> list) { //added
+		if (list == null)
+			return false;
+		if (t == null)
+			return false;
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) != null && list.get(i).Value != null)
+				if (list.get(i).Value.priority)
+					return true;
+		}
+		return false;
+	}
+	public boolean IsPriority(PetriTransition t, DataCar car) { //added
+		if (car == null)
+			return false;
+		if (t == null)
+			return false;
+		if (car != null && car.Value != null)
+			if (car.Value.priority)
+				return true;
+
+		return false;
+	}
+
+
 	public PetriObject GetPetriObjectByName(String name, ArrayList<PetriObject> list) {
 		for (PetriObject petriObject : list) {
 			if (petriObject != null)

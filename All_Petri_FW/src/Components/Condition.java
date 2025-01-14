@@ -3,6 +3,7 @@ package Components;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+import DataObjects.DataCar;
 import DataOnly.CarQueue;
 import DataOnly.FloatFloat;
 import DataOnly.RELQueue;
@@ -211,7 +212,85 @@ public class Condition implements Serializable {
 			}
 			break;
 		}
-		case CanAddCars: {
+		case HavePriorityCar: { //added
+			if (Value1 == null)
+				return false;
+			if (Value1.GetValue() == null)
+				return false;
+			if (Value1.GetType() == PetriObjectType.DataCarQueue) {
+				if (util.HavePriority(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
+					return true;
+				}
+			}
+			break;
+		}
+
+		case IsPriorityCar: { //added
+			if (Value1 == null)
+				return false;
+			if (Value1.GetValue() == null)
+				return false;
+			if (Value1.GetType() == PetriObjectType.DataCar) {
+				if (util.IsPriority(Parent, ((DataCar)Value1))) {
+					return true;
+				}
+			}
+			break;
+		}
+
+			case HaveBus: { //added
+				if (Value1 == null)
+					return false;
+				if (Value1.GetValue() == null)
+					return false;
+				if (Value1.GetType() == PetriObjectType.DataCarQueue) {
+					if (util.HavePriority(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
+						return true;
+					}
+				}
+				break;
+			}
+
+			case IsBus: { //added
+				if (Value1 == null)
+					return false;
+				if (Value1.GetValue() == null)
+					return false;
+				if (Value1.GetType() == PetriObjectType.DataCar) {
+					if (util.IsPriority(Parent, ((DataCar)Value1))) {
+						return true;
+					}
+				}
+				break;
+			}
+
+			case HaveTaxi: { //added
+				if (Value1 == null)
+					return false;
+				if (Value1.GetValue() == null)
+					return false;
+				if (Value1.GetType() == PetriObjectType.DataCarQueue) {
+					if (util.HavePriority(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
+						return true;
+					}
+				}
+				break;
+			}
+
+			case IsTaxi: { //added
+				if (Value1 == null)
+					return false;
+				if (Value1.GetValue() == null)
+					return false;
+				if (Value1.GetType() == PetriObjectType.DataCar) {
+					if (util.IsPriority(Parent, ((DataCar)Value1))) {
+						return true;
+					}
+				}
+				break;
+			}
+
+			case CanAddCars: {
 			if (Value1 == null)
 				return false;
 			if (Value1.GetValue() == null)
@@ -313,6 +392,7 @@ public class Condition implements Serializable {
 				return true;
 			break;
 		}
+
 		case LessThanOrEqual_FloatFloat: {
 			if (Value1 == null || Value2 == null)
 				return false;

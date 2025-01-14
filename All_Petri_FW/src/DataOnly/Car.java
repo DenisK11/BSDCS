@@ -9,7 +9,9 @@ public class Car implements Cloneable, Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	// Overriding clone() method of Object class
+    public boolean priority;
+
+    // Overriding clone() method of Object class
 	public Car clone() throws CloneNotSupportedException {
 		return (Car) super.clone();
 	}
