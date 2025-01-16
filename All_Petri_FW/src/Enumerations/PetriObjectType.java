@@ -20,5 +20,7 @@ public enum PetriObjectType implements Serializable{
 	DataBoolean,
 	DataFloatFloat,	//the new data type
 	DataFuzzy,
-	DataNetworkCommand
+	DataNetworkCommand,
+	Bus,
+	DataBus
 }

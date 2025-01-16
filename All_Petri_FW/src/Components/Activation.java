@@ -156,7 +156,7 @@ public class Activation implements Serializable {
 		if (Operation == TransitionOperation.MakeNull)
 			MakeNull();
 		// -------------FloatFloat Modifications--------------------
-		if (Operation == TransitionOperation.Add_FloatFlaot)
+		if (Operation == TransitionOperation.Add_FloatFloat)
 			Add_FloatFlaot();
 		if (Operation == TransitionOperation.Sub_FloatFloat)
 			Sub_FloatFlaot();

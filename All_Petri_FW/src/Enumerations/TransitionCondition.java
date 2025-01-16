@@ -26,6 +26,8 @@ public enum TransitionCondition implements Serializable{
 	isTaxi,
 	HaveBus,
 	HaveTaxi,
+	Bus,
+	DataBus,
 
 	
 	Equal_FloatFloat,            //the transition conditions for floatfloat

@@ -690,6 +690,25 @@ public class Intersection {
 		p15.SetName("P_15");
 		pn.PlaceList.add(p15);
 
+
+		// T14_1 ------------------------------------------------
+		PetriTransition T14_1 = new PetriTransition(pn);
+		T14_1.TransitionName = "T14_1";
+		T14_1.InputPlaceName.add("P_C2");
+
+		Condition T14Ct1_1 = new Condition(T14_1, "P_C2", TransitionCondition.CanNotAddCars);
+		Condition T14Ct1_2 = new Condition(T14_1, "P_C1", TransitionCondition.NotNull);
+		T14Ct1_1.SetNextCondition(LogicConnector.AND, T14Ct1_2);
+
+		GuardMapping grdT14_1 = new GuardMapping();
+		grdT14_1.condition = T14Ct1_1;
+		grdT14_1.Activations.add(new Activation(T14_1, "P_C2", TransitionOperation.SendOverNetwork, "P_Data"));
+		T14_1.GuardMappingList.add(grdT14_1);
+
+		T14_1.Delay = 0;
+		pn.Transitions.add(T14_1);
+
+
 		// T14 ------------------------------------------------
 		PetriTransition t14 = new PetriTransition(pn);
 		t14.TransitionName = "T14";
@@ -697,10 +716,10 @@ public class Intersection {
 
 		Condition T14Ct1 = new Condition(t14, "P_C0", TransitionCondition.NotNull);
 
-		GuardMapping grdT1 = new GuardMapping();
-		grdT1.condition = T14Ct1;
-		grdT1.Activations.add(new Activation(t14, "P_C0", TransitionOperation.AddElement, "P_C1"));
-		t14.GuardMappingList.add(grdT1);
+		GuardMapping grdT14 = new GuardMapping();
+		grdT14.condition = T14Ct1;
+		grdT14.Activations.add(new Activation(t14, "P_C0", TransitionOperation.AddElement, "P_C1"));
+		t14.GuardMappingList.add(grdT14);
 
 		t14.Delay = 0;
 		pn.Transitions.add(t14);

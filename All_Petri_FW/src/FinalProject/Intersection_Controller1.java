@@ -129,14 +129,19 @@ public class Intersection_Controller1 {
         Five.SetValue(5);
         pn.ConstantPlaceList.add(Five);
 
+        DataInteger Ten = new DataInteger();
+        Ten.SetName("Ten");
+        Ten.SetValue(10);
+        pn.ConstantPlaceList.add(Ten);
+
         //----------------------------T9------------------------------------
         PetriTransition t9 = new PetriTransition(pn);
         t9.TransitionName = "T9";
         t9.InputPlaceName.add("p15");
         t9.InputPlaceName.add("p16");
 
-        Condition T9Ct1 = new Condition(t9, "p0", TransitionCondition.NotNull);
-        Condition T9Ct2 = new Condition(t9, "p1", TransitionCondition.NotNull);
+        Condition T9Ct1 = new Condition(t9, "p15", TransitionCondition.NotNull);
+        Condition T9Ct2 = new Condition(t9, "p16", TransitionCondition.IsNull);
         T9Ct1.SetNextCondition(LogicConnector.AND, T9Ct2);
 
         GuardMapping grdT9 = new GuardMapping();
@@ -144,6 +149,16 @@ public class Intersection_Controller1 {
         grdT9.Activations.add(new Activation(t9, "p12", TransitionOperation.Move, "p13"));
         grdT9.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
         t9.GuardMappingList.add(grdT9);
+
+        Condition T9Ct1_1 = new Condition(t9, "p15", TransitionCondition.NotNull);
+        Condition T9Ct2_1 = new Condition(t9, "p16", TransitionCondition.NotNull);
+        T9Ct1_1.SetNextCondition(LogicConnector.AND, T9Ct2_1);
+
+        GuardMapping grdT9_2 = new GuardMapping();
+        grdT9_2.condition= T9Ct1;
+        grdT9_2.Activations.add(new Activation(t9, "p12", TransitionOperation.Move, "p13"));
+        grdT9_2.Activations.add(new Activation(t9, "Ten", TransitionOperation.DynamicDelay,""));
+        t9.GuardMappingList.add(grdT9_2);
 
         t9.Delay = 0;
         pn.Transitions.add(t9);
@@ -158,10 +173,21 @@ public class Intersection_Controller1 {
         Condition T10Ct2 = new Condition(t10, "p19", TransitionCondition.NotNull);
         T10Ct1.SetNextCondition(LogicConnector.AND, T10Ct2);
 
+        Condition T10Ct1_1 = new Condition(t9, "p15", TransitionCondition.NotNull);
+        Condition T10Ct2_1 = new Condition(t9, "p16", TransitionCondition.IsNull);
+        T10Ct1_1.SetNextCondition(LogicConnector.AND, T10Ct2_1);
+
+        GuardMapping grdT10_1 = new GuardMapping();
+        grdT10_1.condition= T10Ct1_1;
+        grdT10_1.Activations.add(new Activation(t9, "p14", TransitionOperation.Move, "p20"));
+        grdT10_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
+        t9.GuardMappingList.add(grdT10_1);
+
+
         GuardMapping grdT10 = new GuardMapping();
         grdT10.condition= T10Ct1;
         grdT10.Activations.add(new Activation(t10, "p14", TransitionOperation.Move, "p20"));
-        grdT10.Activations.add(new Activation(t10, "Five", TransitionOperation.DynamicDelay,""));
+        grdT10.Activations.add(new Activation(t10, "Ten", TransitionOperation.DynamicDelay,""));
         t10.GuardMappingList.add(grdT10);
 
         t10.Delay = 0;
@@ -171,11 +197,21 @@ public class Intersection_Controller1 {
         PetriTransition t13 = new PetriTransition(pn);
         t13.TransitionName = "T13";
         t13.InputPlaceName.add("p23");
-        t13.InputPlaceName.add("p23");
+        t13.InputPlaceName.add("p25");
 
         Condition T13Ct1 = new Condition(t13, "p23", TransitionCondition.NotNull);
-        Condition T13Ct2 = new Condition(t13, "p23", TransitionCondition.NotNull);
+        Condition T13Ct2 = new Condition(t13, "p25", TransitionCondition.NotNull);
         T13Ct1.SetNextCondition(LogicConnector.AND, T13Ct2);
+
+        Condition T13Ct1_1 = new Condition(t9, "p22", TransitionCondition.NotNull);
+        Condition T13Ct1_2 = new Condition(t9, "p25", TransitionCondition.IsNull);
+        T13Ct1_1.SetNextCondition(LogicConnector.AND, T13Ct1_2);
+
+        GuardMapping grdT13_1 = new GuardMapping();
+        grdT13_1.condition= T13Ct1_1;
+        grdT13_1.Activations.add(new Activation(t9, "p22", TransitionOperation.Move, "p25"));
+        grdT13_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
+        t9.GuardMappingList.add(grdT13_1);
 
         GuardMapping grdT13 = new GuardMapping();
         grdT13.condition= T13Ct1;
@@ -196,10 +232,20 @@ public class Intersection_Controller1 {
         Condition T18Ct2 = new Condition(t18, "p23", TransitionCondition.NotNull);
         T18Ct1.SetNextCondition(LogicConnector.AND, T18Ct2);
 
+        Condition T18Ct1_1 = new Condition(t9, "p22", TransitionCondition.NotNull);
+        Condition T18Ct1_2 = new Condition(t9, "p25", TransitionCondition.IsNull);
+        T18Ct1_1.SetNextCondition(LogicConnector.AND, T18Ct1_2);
+
+        GuardMapping grdT18_1 = new GuardMapping();
+        grdT18_1.condition= T18Ct1_1;
+        grdT18_1.Activations.add(new Activation(t9, "p26", TransitionOperation.Move, "p27"));
+        grdT18_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
+        t9.GuardMappingList.add(grdT18_1);
+
         GuardMapping grdT18 = new GuardMapping();
         grdT18.condition= T18Ct1;
         grdT18.Activations.add(new Activation(t18, "p26", TransitionOperation.Move, "p27"));
-        grdT18.Activations.add(new Activation(t18, "Five", TransitionOperation.DynamicDelay,""));
+        grdT18.Activations.add(new Activation(t18, "Ten", TransitionOperation.DynamicDelay,""));
         t10.GuardMappingList.add(grdT18);
 
         t18.Delay = 0;
