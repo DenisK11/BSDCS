@@ -16,30 +16,25 @@ public class Car implements Cloneable, Serializable {
 	public String Model;
 	public String Number;
 	public List<String> Targets;
-	public Boolean isTaxi; //added
-	public Boolean isBus; //added
-	public Boolean isPriority; //added
+	public Boolean isBus;
+	public Boolean isPriority;
 
-	public Car(String Model, String Number, ArrayList<String> Targets, Boolean isTaxi, Boolean isBus, Boolean isPriority) {
+	public Car(String Model, String Number, ArrayList<String> Targets, Boolean isBus, Boolean isPriority) {
 		this.Model = Model;
 		this.Number = Number;
 		this.Targets = new ArrayList<String>();
 		this.Targets.addAll(Targets);
-		//added
-		this.isTaxi = isTaxi;
 		this.isBus = isBus;
 		this.isPriority = isPriority;
 	}
 
-	public Car(String Model, String Number, String[] Targets, Boolean isTaxi, Boolean isBus, Boolean isPriority) {
+	public Car(String Model, String Number, String[] Targets, Boolean isBus, Boolean isPriority) {
 		this.Model = Model;
 		this.Number = Number;
 		this.Targets = new ArrayList<String>();
 		for (String string : Targets) {
 			this.Targets.add(string);
 		}
-		//added
-		this.isTaxi = isTaxi;
 		this.isBus = isBus;
 		this.isPriority = isPriority;
 	}

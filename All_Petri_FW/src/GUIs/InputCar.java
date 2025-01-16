@@ -106,7 +106,6 @@ public class InputCar extends JFrame {
 							txtModel.getText(),
 							txtNumber.getText(),
 							txtTarget.getText().split(","),
-							checkBoxIsTaxi.isSelected(),
 							checkBoxIsBus.isSelected(),
 							checkBoxIsPriority.isSelected()
 					);

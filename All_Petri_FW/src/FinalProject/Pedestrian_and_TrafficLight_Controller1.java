@@ -98,7 +98,7 @@ public class Pedestrian_and_TrafficLight_Controller1 {
 		Condition T0Ct1 = new Condition(t0, "p0", TransitionCondition.NotNull);
 		Condition T0Ct2 = new Condition(t0, "p1", TransitionCondition.NotNull);
 		Condition T0Ct3 = new Condition(t0, "p6", TransitionCondition.NotNull);
-		T0Ct1.SetNextCondition(LogicConnector.AND, T0Ct2);
+		T0Ct1.SetNextCondition(LogicConnector.OR, T0Ct2);
 		T0Ct1.SetNextCondition(LogicConnector.AND, T0Ct3);
 
 		GuardMapping grdT0 = new GuardMapping();

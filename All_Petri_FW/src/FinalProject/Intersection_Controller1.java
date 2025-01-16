@@ -173,15 +173,15 @@ public class Intersection_Controller1 {
         Condition T10Ct2 = new Condition(t10, "p19", TransitionCondition.NotNull);
         T10Ct1.SetNextCondition(LogicConnector.AND, T10Ct2);
 
-        Condition T10Ct1_1 = new Condition(t9, "p15", TransitionCondition.NotNull);
-        Condition T10Ct2_1 = new Condition(t9, "p16", TransitionCondition.IsNull);
+        Condition T10Ct1_1 = new Condition(t10, "p18", TransitionCondition.NotNull);
+        Condition T10Ct2_1 = new Condition(t10, "p19", TransitionCondition.IsNull);
         T10Ct1_1.SetNextCondition(LogicConnector.AND, T10Ct2_1);
 
         GuardMapping grdT10_1 = new GuardMapping();
         grdT10_1.condition= T10Ct1_1;
-        grdT10_1.Activations.add(new Activation(t9, "p14", TransitionOperation.Move, "p20"));
-        grdT10_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
-        t9.GuardMappingList.add(grdT10_1);
+        grdT10_1.Activations.add(new Activation(t10, "p14", TransitionOperation.Move, "p20"));
+        grdT10_1.Activations.add(new Activation(t10, "Five", TransitionOperation.DynamicDelay,""));
+        t10.GuardMappingList.add(grdT10_1);
 
 
         GuardMapping grdT10 = new GuardMapping();
@@ -203,15 +203,15 @@ public class Intersection_Controller1 {
         Condition T13Ct2 = new Condition(t13, "p25", TransitionCondition.NotNull);
         T13Ct1.SetNextCondition(LogicConnector.AND, T13Ct2);
 
-        Condition T13Ct1_1 = new Condition(t9, "p22", TransitionCondition.NotNull);
-        Condition T13Ct1_2 = new Condition(t9, "p25", TransitionCondition.IsNull);
+        Condition T13Ct1_1 = new Condition(t13, "p23", TransitionCondition.NotNull);
+        Condition T13Ct1_2 = new Condition(t13, "p25", TransitionCondition.IsNull);
         T13Ct1_1.SetNextCondition(LogicConnector.AND, T13Ct1_2);
 
         GuardMapping grdT13_1 = new GuardMapping();
         grdT13_1.condition= T13Ct1_1;
-        grdT13_1.Activations.add(new Activation(t9, "p22", TransitionOperation.Move, "p25"));
-        grdT13_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
-        t9.GuardMappingList.add(grdT13_1);
+        grdT13_1.Activations.add(new Activation(t13, "p22", TransitionOperation.Move, "p25"));
+        grdT13_1.Activations.add(new Activation(t13, "Five", TransitionOperation.DynamicDelay,""));
+        t13.GuardMappingList.add(grdT13_1);
 
         GuardMapping grdT13 = new GuardMapping();
         grdT13.condition= T13Ct1;
@@ -225,28 +225,28 @@ public class Intersection_Controller1 {
         //----------------------------T18------------------------------------
         PetriTransition t18 = new PetriTransition(pn);
         t18.TransitionName = "T18";
-        t18.InputPlaceName.add("p23");
-        t18.InputPlaceName.add("p23");
+        t18.InputPlaceName.add("p29");
+        t18.InputPlaceName.add("p30");
 
-        Condition T18Ct1 = new Condition(t18, "p23", TransitionCondition.NotNull);
-        Condition T18Ct2 = new Condition(t18, "p23", TransitionCondition.NotNull);
+        Condition T18Ct1 = new Condition(t18, "p29", TransitionCondition.NotNull);
+        Condition T18Ct2 = new Condition(t18, "p30", TransitionCondition.NotNull);
         T18Ct1.SetNextCondition(LogicConnector.AND, T18Ct2);
 
-        Condition T18Ct1_1 = new Condition(t9, "p22", TransitionCondition.NotNull);
-        Condition T18Ct1_2 = new Condition(t9, "p25", TransitionCondition.IsNull);
+        Condition T18Ct1_1 = new Condition(t18, "p29", TransitionCondition.NotNull);
+        Condition T18Ct1_2 = new Condition(t18, "p30", TransitionCondition.IsNull);
         T18Ct1_1.SetNextCondition(LogicConnector.AND, T18Ct1_2);
 
         GuardMapping grdT18_1 = new GuardMapping();
         grdT18_1.condition= T18Ct1_1;
-        grdT18_1.Activations.add(new Activation(t9, "p26", TransitionOperation.Move, "p27"));
-        grdT18_1.Activations.add(new Activation(t9, "Five", TransitionOperation.DynamicDelay,""));
-        t9.GuardMappingList.add(grdT18_1);
+        grdT18_1.Activations.add(new Activation(t18, "p26", TransitionOperation.Move, "p27"));
+        grdT18_1.Activations.add(new Activation(t18, "Ten", TransitionOperation.DynamicDelay,""));
+        t18.GuardMappingList.add(grdT18_1);
 
         GuardMapping grdT18 = new GuardMapping();
         grdT18.condition= T18Ct1;
         grdT18.Activations.add(new Activation(t18, "p26", TransitionOperation.Move, "p27"));
-        grdT18.Activations.add(new Activation(t18, "Ten", TransitionOperation.DynamicDelay,""));
-        t10.GuardMappingList.add(grdT18);
+        grdT18.Activations.add(new Activation(t18, "Five", TransitionOperation.DynamicDelay,""));
+        t18.GuardMappingList.add(grdT18);
 
         t18.Delay = 0;
         pn.Transitions.add(t18);

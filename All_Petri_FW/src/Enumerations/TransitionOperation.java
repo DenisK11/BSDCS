@@ -34,5 +34,4 @@ public enum TransitionOperation implements Serializable{
 	Sub_Fuzzy,
 	Prod_Fuzzy,
 	Div_Fuzzy,
-	HaveBus
 }

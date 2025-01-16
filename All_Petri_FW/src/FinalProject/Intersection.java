@@ -25,16 +25,16 @@ public class Intersection {
 		p1.SetName("P_C0");
 		pn.PlaceList.add(p1);
 
-		DataCarQueue p2 = new DataCarQueue();
-		p2.Value.Size = 3;
+		DataCar p2 = new DataCar();
 		p2.SetName("P_C1");
 		pn.PlaceList.add(p2);
 
-		DataString p3 = new DataString();
+		DataCarQueue p3 = new DataCarQueue();
+		p3.Value.Size = 3;
 		p3.SetName("P_C2");
 		pn.PlaceList.add(p3);
 
-		DataString p14 = new DataString();
+		DataCar p14 = new DataCar();
 		p14.SetName("P14");
 		pn.PlaceList.add(p14);
 
@@ -50,12 +50,12 @@ public class Intersection {
 		p_T0.SetName("P_T0");
 		pn.PlaceList.add(p_T0);
 
-		DataCarQueue p_T1 = new DataCarQueue();
-		p_T1.Value.Size = 3;
+		DataCar p_T1 = new DataCar();
 		p_T1.SetName("P_T1");
 		pn.PlaceList.add(p_T1);
 
-		DataString p_T2 = new DataString();
+		DataCarQueue p_T2 = new DataCarQueue();
+		p_T2.Value.Size = 3;
 		p_T2.SetName("P_T2");
 		pn.PlaceList.add(p_T2);
 
@@ -67,16 +67,15 @@ public class Intersection {
 		p_T5.SetName("P_T5");
 		pn.PlaceList.add(p_T5);
 
-		DataCarQueue p_T4 = new DataCarQueue();
-		p_T4.Value.Size = 3;
+		DataCar p_T4 = new DataCar();
 		p_T4.SetName("P_T4");
 		pn.PlaceList.add(p_T4);
 
-		DataString p_T3 = new DataString();
+		DataCar p_T3 = new DataCar();
 		p_T3.SetName("P_T3");
 		pn.PlaceList.add(p_T3);
 
-		DataString p115 = new DataString();
+		DataCar p115 = new DataCar();
 		p115.SetName("P115");
 		pn.PlaceList.add(p115);
 
@@ -88,12 +87,11 @@ public class Intersection {
 		p_C5.SetName("P_C5");
 		pn.PlaceList.add(p_C5);
 
-		DataCarQueue p_C4 = new DataCarQueue();
-		p_C4.Value.Size = 3;
+		DataCar p_C4 = new DataCar();
 		p_C4.SetName("P_C4");
 		pn.PlaceList.add(p_C4);
 
-		DataString p_C3 = new DataString();
+		DataCar p_C3 = new DataCar();
 		p_C3.SetName("P_C3");
 		pn.PlaceList.add(p_C3);
 
@@ -105,38 +103,35 @@ public class Intersection {
 		p_16.SetName("P_16");
 		pn.PlaceList.add(p_16);
 
-		DataCarQueue p_17 = new DataCarQueue();
-		p_17.Value.Size = 3;
+		DataCar p_17 = new DataCar();
 		p_17.SetName("P_17");
 		pn.PlaceList.add(p_17);
 
-		DataCarQueue p_18 = new DataCarQueue();
-		p_18.Value.Size = 3;
+		DataCar p_18 = new DataCar();
 		p_18.SetName("P_18");
 		pn.PlaceList.add(p_18);
 
-		DataCarQueue p_157 = new DataCarQueue();
-		p_157.Value.Size = 3;
+		DataCar p_157 = new DataCar();
 		p_157.SetName("P_157");
 		pn.PlaceList.add(p_157);
 
-		DataString p_29 = new DataString();
+		DataCar p_29 = new DataCar();
 		p_29.SetName("P_29");
 		pn.PlaceList.add(p_29);
 
-		DataString p_23 = new DataString();
-		p_23.SetName("P_23");
-		pn.PlaceList.add(p_23);
+		DataCar p_22 = new DataCar();
+		p_22.SetName("P_22");
+		pn.PlaceList.add(p_22);
 
-		DataString p_21 = new DataString();
+		DataCar p_21 = new DataCar();
 		p_21.SetName("P_21");
 		pn.PlaceList.add(p_21);
 
-		DataString p_20 = new DataString();
+		DataCar p_20 = new DataCar();
 		p_20.SetName("P_20");
 		pn.PlaceList.add(p_20);
 
-		DataString p_19 = new DataString();
+		DataCar p_19 = new DataCar();
 		p_19.SetName("P_19");
 		pn.PlaceList.add(p_19);
 
@@ -144,49 +139,42 @@ public class Intersection {
 		// -------------------------------Lane6 - Left--------------------------------
 		// --------------------------------------------------------------------
 
-		DataCar p_28 = new DataCar();
+		DataCarQueue p_28 = new DataCarQueue();
+		p_28.Value.Size = 3;
 		p_28.SetName("P_28");
 		pn.PlaceList.add(p_28);
 
-		DataCarQueue p_27 = new DataCarQueue();
-		p_27.Value.Size = 3;
+		DataCar p_27 = new DataCar();
 		p_27.SetName("P_27");
 		pn.PlaceList.add(p_27);
 
-		DataCarQueue p_26 = new DataCarQueue();
-		p_26.Value.Size = 3;
+		DataCar p_26 = new DataCar();
 		p_26.SetName("P_26");
 		pn.PlaceList.add(p_26);
 
-		DataCarQueue p_30 = new DataCarQueue();
-		p_30.Value.Size = 3;
+		DataCar p_30 = new DataCar();
 		p_30.SetName("P_30");
 		pn.PlaceList.add(p_30);
 
-		DataString p_160 = new DataString();
+		DataCar p_23 = new DataCar();
+		p_23.SetName("P_23");
+		pn.PlaceList.add(p_23);
+
+		DataCar p_160 = new DataCar();
 		p_160.SetName("P_160");
 		pn.PlaceList.add(p_160);
 
-		DataString p_22 = new DataString();
-		p_22.SetName("P_22");
-		pn.PlaceList.add(p_22);
-
-		DataString p_24 = new DataString();
+		DataCar p_24 = new DataCar();
 		p_24.SetName("P_24");
 		pn.PlaceList.add(p_24);
 
-		DataString p_25 = new DataString();
+		DataCar p_25 = new DataCar();
 		p_25.SetName("P_25");
 		pn.PlaceList.add(p_25);
 
 		DataString p_116 = new DataString();
 		p_116.SetName("P_116");
 		pn.PlaceList.add(p_116);
-
-		DataInteger Five = new DataInteger();
-		Five.SetName("Five");
-		Five.SetValue(5);
-		pn.ConstantPlaceList.add(Five);
 
 		// -------------------------------------------------------------------
 		// -------------------------------Lane7 - Right--------------------------------
@@ -196,8 +184,7 @@ public class Intersection {
 		p_58.SetName("P_58");
 		pn.PlaceList.add(p_58);
 
-		DataCarQueue p_59 = new DataCarQueue();
-		p_59.Value.Size = 3;
+		DataCar p_59 = new DataCar();
 		p_59.SetName("P_59");
 		pn.PlaceList.add(p_59);
 
@@ -206,13 +193,11 @@ public class Intersection {
 		p_6.SetName("P_6");
 		pn.PlaceList.add(p_6);
 
-		DataCarQueue p_60 = new DataCarQueue();
-		p_60.Value.Size = 3;
+		DataCar p_60 = new DataCar();
 		p_60.SetName("P_60");
 		pn.PlaceList.add(p_60);
 
-		DataCarQueue p_56 = new DataCarQueue();
-		p_56.Value.Size = 3;
+		DataCar p_56 = new DataCar();
 		p_56.SetName("P_56");
 		pn.PlaceList.add(p_56);
 
@@ -224,39 +209,34 @@ public class Intersection {
 		p_55.SetName("P_55");
 		pn.PlaceList.add(p_55);
 
-		DataString p_57 = new DataString();
+		DataCar p_57 = new DataCar();
 		p_57.SetName("P_57");
 		pn.PlaceList.add(p_57);
 
-		DataCarQueue p_156 = new DataCarQueue();
-		p_156.Value.Size = 3;
+		DataCar p_156 = new DataCar();
 		p_156.SetName("P_156");
 		pn.PlaceList.add(p_156);
 
 		// -------------------------------------------------------------------
 		// -------------------------------Lane8 - Right--------------------------------
 		// --------------------------------------------------------------------
-
 		DataCar p_188 = new DataCar();
 		p_188.SetName("P_118");
 		pn.PlaceList.add(p_188);
 
-		DataCarQueue p_52 = new DataCarQueue();
-		p_52.Value.Size = 3;
+		DataCar p_52 = new DataCar();
 		p_52.SetName("P_52");
 		pn.PlaceList.add(p_52);
 
-		DataCarQueue p_159 = new DataCarQueue();
-		p_159.Value.Size = 3;
+		DataCar p_159 = new DataCar();
 		p_159.SetName("P_159");
 		pn.PlaceList.add(p_159);
 
-		DataCarQueue p_49 = new DataCarQueue();
-		p_49.Value.Size = 3;
+		DataCar p_49 = new DataCar();
 		p_49.SetName("P_49");
 		pn.PlaceList.add(p_49);
 
-		DataString p_53 = new DataString();
+		DataCar p_53 = new DataCar();
 		p_53.SetName("P_53");
 		pn.PlaceList.add(p_53);
 
@@ -264,25 +244,19 @@ public class Intersection {
 		p_54.SetName("P_54");
 		pn.PlaceList.add(p_54);
 
-		DataString p_50 = new DataString();
+		DataCar p_50 = new DataCar();
 		p_50.SetName("P_50");
 		pn.PlaceList.add(p_50);
 
-		DataCarQueue p_51 = new DataCarQueue();
-		p_51.Value.Size = 3;
+		DataCar p_51 = new DataCar();
 		p_51.SetName("P_51");
 		pn.PlaceList.add(p_51);
-
-		// -------------------------------------------------------------------
-		// -------------------------------Lane9 - Down--------------------------------
-		// --------------------------------------------------------------------
 
 		DataCar p_119 = new DataCar();
 		p_119.SetName("P_119");
 		pn.PlaceList.add(p_119);
 
-		DataCarQueue p_31 = new DataCarQueue();
-		p_31.Value.Size = 3;
+		DataCar p_31 = new DataCar();
 		p_31.SetName("P_31");
 		pn.PlaceList.add(p_31);
 
@@ -291,8 +265,7 @@ public class Intersection {
 		p_148.SetName("P_148");
 		pn.PlaceList.add(p_148);
 
-		DataCarQueue p_121 = new DataCarQueue();
-		p_121.Value.Size = 3;
+		DataString p_121 = new DataString();
 		p_121.SetName("P_121");
 		pn.PlaceList.add(p_121);
 
@@ -301,17 +274,15 @@ public class Intersection {
 		p_149.SetName("P_149");
 		pn.PlaceList.add(p_149);
 
-		DataCarQueue p_35 = new DataCarQueue();
-		p_35.Value.Size = 3;
+		DataCar p_35 = new DataCar();
 		p_35.SetName("P_35");
 		pn.PlaceList.add(p_35);
 
-		DataCarQueue p_158 = new DataCarQueue();
-		p_158.Value.Size = 3;
+		DataCar p_158 = new DataCar();
 		p_158.SetName("P_158");
 		pn.PlaceList.add(p_158);
 
-		DataString p_34 = new DataString();
+		DataCar p_34 = new DataCar();
 		p_34.SetName("P_34");
 		pn.PlaceList.add(p_34);
 
@@ -319,12 +290,11 @@ public class Intersection {
 		p_144.SetName("P_144");
 		pn.PlaceList.add(p_144);
 
-		DataString p_154 = new DataString();
+		DataCar p_154 = new DataCar();
 		p_154.SetName("P_154");
 		pn.PlaceList.add(p_154);
 
-		DataCarQueue p_155 = new DataCarQueue();
-		p_155.Value.Size = 3;
+		DataCar p_155 = new DataCar();
 		p_155.SetName("P_155");
 		pn.PlaceList.add(p_155);
 
@@ -340,55 +310,47 @@ public class Intersection {
 		p_38.SetName("P_143");
 		pn.PlaceList.add(p_38);
 
-		DataCarQueue p_162 = new DataCarQueue();
-		p_162.Value.Size = 3;
+		DataCar p_162 = new DataCar();
 		p_162.SetName("P_162");
 		pn.PlaceList.add(p_162);
 
-		DataCarQueue p_41 = new DataCarQueue();
-		p_41.Value.Size = 3;
+		DataCar p_41 = new DataCar();
 		p_41.SetName("P_41");
 		pn.PlaceList.add(p_41);
 
-		DataCarQueue p_141 = new DataCarQueue();
-		p_141.Value.Size = 3;
+		DataCar p_141 = new DataCar();
 		p_141.SetName("P_141");
 		pn.PlaceList.add(p_141);
 
-		DataCarQueue p_163 = new DataCarQueue();
-		p_163.Value.Size = 3;
+		DataCar p_163 = new DataCar();
 		p_163.SetName("P_163");
 		pn.PlaceList.add(p_163);
 
-		DataCarQueue p_150 = new DataCarQueue();
-		p_150.Value.Size = 3;
+		DataCar p_150 = new DataCar();
 		p_150.SetName("P_150");
 		pn.PlaceList.add(p_150);
 
 		DataCarQueue p_61 = new DataCarQueue();
-		p_61.Value.Size = 3;
 		p_61.SetName("P_61");
 		pn.PlaceList.add(p_61);
 
-		DataCarQueue p_151 = new DataCarQueue();
-		p_151.Value.Size = 3;
+		DataCar p_151 = new DataCar();
 		p_151.SetName("P_151");
 		pn.PlaceList.add(p_151);
 
-		DataString p_152 = new DataString();
+		DataCar p_152 = new DataCar();
 		p_152.SetName("P_152");
 		pn.PlaceList.add(p_152);
 
-		DataString p_153 = new DataString();
+		DataCar p_153 = new DataCar();
 		p_153.SetName("P_153");
 		pn.PlaceList.add(p_153);
 
-		DataString p_128 = new DataString();
+		DataCar p_128 = new DataCar();
 		p_128.SetName("P_128");
 		pn.PlaceList.add(p_128);
 
-		DataCarQueue p_120 = new DataCarQueue();
-		p_120.Value.Size = 3;
+		DataCar p_120 = new DataCar();
 		p_120.SetName("P_120");
 		pn.PlaceList.add(p_120);
 
@@ -396,29 +358,27 @@ public class Intersection {
 		p_124.SetName("P_124");
 		pn.PlaceList.add(p_124);
 
-		DataString p_68 = new DataString();
+		DataCar p_68 = new DataCar();
 		p_68.SetName("P_68");
 		pn.PlaceList.add(p_68);
 
-		DataString p_69 = new DataString();
+		DataCar p_69 = new DataCar();
 		p_69.SetName("P_69");
 		pn.PlaceList.add(p_69);
 
-		DataString p_70 = new DataString();
+		DataCar p_70 = new DataCar();
 		p_70.SetName("P_70");
 		pn.PlaceList.add(p_70);
 
-		DataString p_71 = new DataString();
+		DataCar p_71 = new DataCar();
 		p_71.SetName("P_71");
 		pn.PlaceList.add(p_71);
 
-		DataCarQueue p_63 = new DataCarQueue();
-		p_63.Value.Size = 3;
+		DataCar p_63 = new DataCar();
 		p_63.SetName("P_63");
 		pn.PlaceList.add(p_63);
 
-		DataCarQueue p_66 = new DataCarQueue();
-		p_66.Value.Size = 3;
+		DataCar p_66 = new DataCar();
 		p_66.SetName("P_66");
 		pn.PlaceList.add(p_66);
 
@@ -438,16 +398,15 @@ public class Intersection {
 		p_67.SetName("P_67");
 		pn.PlaceList.add(p_67);
 
-		DataString p_72 = new DataString();
+		DataCar p_72 = new DataCar();
 		p_72.SetName("P_72");
 		pn.PlaceList.add(p_72);
 
-		DataString p_73 = new DataString();
+		DataCar p_73 = new DataCar();
 		p_73.SetName("P_73");
 		pn.PlaceList.add(p_73);
 
-		DataCarQueue p_122 = new DataCarQueue();
-		p_122.Value.Size = 3;
+		DataCar p_122 = new DataCar();
 		p_122.SetName("P_122");
 		pn.PlaceList.add(p_122);
 
@@ -463,7 +422,7 @@ public class Intersection {
 		p_78.SetName("P_78");
 		pn.PlaceList.add(p_78);
 
-		DataString p_88 = new DataString();
+		DataCar p_88 = new DataCar();
 		p_88.SetName("P_88");
 		pn.PlaceList.add(p_88);
 
@@ -471,8 +430,7 @@ public class Intersection {
 		p_79.SetName("P_79");
 		pn.PlaceList.add(p_79);
 
-		DataCarQueue p_164 = new DataCarQueue();
-		p_164.Value.Size = 3;
+		DataCar p_164 = new DataCar();
 		p_164.SetName("P_164");
 		pn.PlaceList.add(p_164);
 
@@ -480,8 +438,7 @@ public class Intersection {
 		p_80.SetName("P_80");
 		pn.PlaceList.add(p_80);
 
-		DataCarQueue p_165 = new DataCarQueue();
-		p_165.Value.Size = 3;
+		DataCar p_165 = new DataCar();
 		p_165.SetName("P_165");
 		pn.PlaceList.add(p_165);
 
@@ -493,8 +450,7 @@ public class Intersection {
 		p_84.SetName("P_84");
 		pn.PlaceList.add(p_84);
 
-		DataCarQueue p_83 = new DataCarQueue();
-		p_83.Value.Size = 3;
+		DataCar p_83 = new DataCar();
 		p_83.SetName("P_83");
 		pn.PlaceList.add(p_83);
 
@@ -502,17 +458,16 @@ public class Intersection {
 		p_82.SetName("P_82");
 		pn.PlaceList.add(p_82);
 
-		DataCarQueue p_126 = new DataCarQueue();
-		p_126.Value.Size = 3;
+		DataString p_126 = new DataString();
 		p_126.SetName("P_126");
 		pn.PlaceList.add(p_126);
 
-		DataCar p_85 = new DataCar();
+		DataCarQueue p_85 = new DataCarQueue();
+		p_85.Value.Size = 3;
 		p_85.SetName("P_85");
 		pn.PlaceList.add(p_85);
 
-		DataCarQueue p_86 = new DataCarQueue();
-		p_86.Value.Size = 3;
+		DataCar p_86 = new DataCar();
 		p_86.SetName("P_86");
 		pn.PlaceList.add(p_86);
 
@@ -524,106 +479,103 @@ public class Intersection {
 		p_123.SetName("P_123");
 		pn.PlaceList.add(p_123);
 
-		DataCarQueue p_90 = new DataCarQueue();
-		p_90.Value.Size = 3;
+		DataCar p_90 = new DataCar();
 		p_90.SetName("P_90");
 		pn.PlaceList.add(p_90);
 
-		DataCarQueue p_94 = new DataCarQueue();
-		p_94.Value.Size = 3;
+		DataCar p_94 = new DataCar();
 		p_94.SetName("P_94");
 		pn.PlaceList.add(p_94);
 
-		DataString p_89 = new DataString();
+		DataCar p_89 = new DataCar();
 		p_89.SetName("P_89");
 		pn.PlaceList.add(p_89);
 
-		DataString p_102 = new DataString();
+		DataCar p_102 = new DataCar();
 		p_102.SetName("P_102");
 		pn.PlaceList.add(p_102);
 
-		DataString p_130 = new DataString();
+		DataCar p_130 = new DataCar();
 		p_130.SetName("P_130");
 		pn.PlaceList.add(p_130);
 
-		DataString p_133 = new DataString();
+		DataCar p_133 = new DataCar();
 		p_133.SetName("P_133");
 		pn.PlaceList.add(p_133);
 
-		DataString p_131 = new DataString();
+		DataCar p_131 = new DataCar();
 		p_131.SetName("P_131");
 		pn.PlaceList.add(p_131);
 
-		DataString p_134 = new DataString();
+		DataCar p_134 = new DataCar();
 		p_134.SetName("P_134");
 		pn.PlaceList.add(p_134);
 
-		DataString p_103 = new DataString();
+		DataCar p_103 = new DataCar();
 		p_103.SetName("P_103");
 		pn.PlaceList.add(p_103);
 
-		DataString p_104 = new DataString();
+		DataCar p_104 = new DataCar();
 		p_104.SetName("P_104");
 		pn.PlaceList.add(p_104);
 
-		DataString p_105 = new DataString();
+		DataCar p_105 = new DataCar();
 		p_105.SetName("P_105");
 		pn.PlaceList.add(p_105);
 
-		DataString p_111 = new DataString();
+		DataCar p_111 = new DataCar();
 		p_111.SetName("P_111");
 		pn.PlaceList.add(p_111);
 
-		DataString p_112 = new DataString();
+		DataCar p_112 = new DataCar();
 		p_112.SetName("P_112");
 		pn.PlaceList.add(p_112);
 
-		DataString p_113 = new DataString();
+		DataCar p_113 = new DataCar();
 		p_113.SetName("P_113");
 		pn.PlaceList.add(p_113);
 
-		DataString p_140 = new DataString();
+		DataCar p_140 = new DataCar();
 		p_140.SetName("P_140");
 		pn.PlaceList.add(p_140);
 
-		DataString p_139 = new DataString();
+		DataCar p_139 = new DataCar();
 		p_139.SetName("P_139");
 		pn.PlaceList.add(p_139);
 
-		DataString p_138 = new DataString();
+		DataCar p_138 = new DataCar();
 		p_138.SetName("P_138");
 		pn.PlaceList.add(p_138);
 
-		DataString p_137 = new DataString();
+		DataCar p_137 = new DataCar();
 		p_137.SetName("P_137");
 		pn.PlaceList.add(p_137);
 
-		DataString p_147 = new DataString();
+		DataCar p_147 = new DataCar();
 		p_147.SetName("P_147");
 		pn.PlaceList.add(p_147);
 
-		DataString p_136 = new DataString();
+		DataCar p_136 = new DataCar();
 		p_136.SetName("P_136");
 		pn.PlaceList.add(p_136);
 
-		DataString p_146 = new DataString();
+		DataCar p_146 = new DataCar();
 		p_146.SetName("P_146");
 		pn.PlaceList.add(p_146);
 
-		DataString p_135 = new DataString();
+		DataCar p_135 = new DataCar();
 		p_135.SetName("P_135");
 		pn.PlaceList.add(p_135);
 
-		DataString p_145 = new DataString();
+		DataCar p_145 = new DataCar();
 		p_145.SetName("P_145");
 		pn.PlaceList.add(p_145);
 
-		DataCarQueue p_166 = new DataCarQueue();
+		DataCar p_166 = new DataCar();
 		p_166.SetName("P_166");
 		pn.PlaceList.add(p_166);
 
-		DataCarQueue p_91 = new DataCarQueue();
-		p_91.Value.Size = 3;
+		DataCar p_91 = new DataCar();
 		p_91.SetName("P_91");
 		pn.PlaceList.add(p_91);
 
@@ -631,8 +583,7 @@ public class Intersection {
 		p_95.SetName("P_95");
 		pn.PlaceList.add(p_95);
 
-		DataCarQueue p_125 = new DataCarQueue();
-		p_125.Value.Size = 3;
+		DataString p_125 = new DataString();
 		p_125.SetName("P_125");
 		pn.PlaceList.add(p_125);
 
@@ -640,8 +591,7 @@ public class Intersection {
 		p_92.SetName("P_92");
 		pn.PlaceList.add(p_92);
 
-		DataCarQueue p_167 = new DataCarQueue();
-		p_167.Value.Size = 3;
+		DataCar p_167 = new DataCar();
 		p_167.SetName("P_167");
 		pn.PlaceList.add(p_167);
 
@@ -661,7 +611,7 @@ public class Intersection {
 		p_98.SetName("P_98");
 		pn.PlaceList.add(p_98);
 
-		DataCarQueue p_168 = new DataCarQueue();
+		DataCar p_168 = new DataCar();
 		p_168.SetName("P_168");
 		pn.PlaceList.add(p_168);
 
@@ -681,6 +631,38 @@ public class Intersection {
 		p_101.SetName("P_101");
 		pn.PlaceList.add(p_101);
 
+		DataString p_172 = new DataString();
+		p_172.SetName("p_172");
+		pn.PlaceList.add(p_172);
+
+		DataString p_174 = new DataString();
+		p_174.SetName("p_174");
+		pn.PlaceList.add(p_174);
+
+		DataString p_173 = new DataString();
+		p_173.SetName("p_173");
+		pn.PlaceList.add(p_173);
+
+		DataString p_171 = new DataString();
+		p_171.SetName("p_171");
+		pn.PlaceList.add(p_171);
+
+		DataString p_177 = new DataString();
+		p_177.SetName("p_177");
+		pn.PlaceList.add(p_177);
+
+		DataString p_175 = new DataString();
+		p_175.SetName("p_175");
+		pn.PlaceList.add(p_175);
+
+		DataString p_176 = new DataString();
+		p_176.SetName("p_176");
+		pn.PlaceList.add(p_176);
+
+		DataString p_178 = new DataString();
+		p_178.SetName("p_178");
+		pn.PlaceList.add(p_178);
+
 		// -------------------------------------------------------------------------------------------
 		// --------------------------------Intersection-----------------------------------------------
 		// -------------------------------------------------------------------------------------------
@@ -691,23 +673,113 @@ public class Intersection {
 		pn.PlaceList.add(p15);
 
 
-		// T14_1 ------------------------------------------------
-		PetriTransition T14_1 = new PetriTransition(pn);
-		T14_1.TransitionName = "T14_1";
-		T14_1.InputPlaceName.add("P_C2");
+		// T106 ------------------------------------------------
+		PetriTransition T106 = new PetriTransition(pn);
+		T106.TransitionName = "T106";
+		T106.InputPlaceName.add("P_C2");
+		T106.InputPlaceName.add("P_C1");
 
-		Condition T14Ct1_1 = new Condition(T14_1, "P_C2", TransitionCondition.CanNotAddCars);
-		Condition T14Ct1_2 = new Condition(T14_1, "P_C1", TransitionCondition.NotNull);
-		T14Ct1_1.SetNextCondition(LogicConnector.AND, T14Ct1_2);
+		Condition T106Ct1 = new Condition(T106, "P_C2", TransitionCondition.CanNotAddCars);
+		Condition T106Ct2 = new Condition(T106, "P_C1", TransitionCondition.NotNull);
+		T106Ct1.SetNextCondition(LogicConnector.AND, T106Ct2);
 
-		GuardMapping grdT14_1 = new GuardMapping();
-		grdT14_1.condition = T14Ct1_1;
-		grdT14_1.Activations.add(new Activation(T14_1, "P_C2", TransitionOperation.SendOverNetwork, "P_Data"));
-		T14_1.GuardMappingList.add(grdT14_1);
+		GuardMapping grdT106 = new GuardMapping();
+		grdT106.condition = T106Ct1;
+		grdT106.Activations.add(new Activation(T106, "P_C2", TransitionOperation.SendOverNetwork, "P_172"));
+		T106.GuardMappingList.add(grdT106);
 
-		T14_1.Delay = 0;
-		pn.Transitions.add(T14_1);
+		T106.Delay = 0;
+		pn.Transitions.add(T106);
 
+		// T101 ------------------------------------------------
+		PetriTransition T101 = new PetriTransition(pn);
+		T101.TransitionName = "T101";
+		T101.InputPlaceName.add("P_27");
+		T101.InputPlaceName.add("P_28");
+
+		Condition T101Ct1 = new Condition(T101, "P_28", TransitionCondition.CanNotAddCars);
+		Condition T101Ct2 = new Condition(T101, "P_27", TransitionCondition.NotNull);
+		T101Ct1.SetNextCondition(LogicConnector.AND, T101Ct2);
+
+		GuardMapping grdT101 = new GuardMapping();
+		grdT101.condition = T101Ct1;
+		grdT101.Activations.add(new Activation(T101, "P_28", TransitionOperation.SendOverNetwork, "P_172"));
+		T106.GuardMappingList.add(grdT101);
+
+		T101.Delay = 0;
+		pn.Transitions.add(T101);
+
+		// T107 ------------------------------------------------
+		PetriTransition T107 = new PetriTransition(pn);
+		T107.TransitionName = "T107";
+		T107.InputPlaceName.add("P_58");
+		T107.InputPlaceName.add("P_59");
+
+		Condition T174Ct1 = new Condition(T107, "P_58", TransitionCondition.CanNotAddCars);
+		Condition T174Ct2 = new Condition(T107, "P_59", TransitionCondition.NotNull);
+		T174Ct1.SetNextCondition(LogicConnector.AND, T174Ct2);
+
+		GuardMapping grdT174 = new GuardMapping();
+		grdT174.condition = T174Ct1;
+		grdT174.Activations.add(new Activation(T107, "P_58", TransitionOperation.SendOverNetwork, "P_172"));
+		T107.GuardMappingList.add(grdT174);
+
+		T107.Delay = 0;
+		pn.Transitions.add(T107);
+
+		// T108 ------------------------------------------------
+		PetriTransition T108 = new PetriTransition(pn);
+		T108.TransitionName = "T108";
+		T108.InputPlaceName.add("P_41");
+		T108.InputPlaceName.add("P_170");
+
+		Condition T108Ct1 = new Condition(T108, "P_41", TransitionCondition.CanNotAddCars);
+		Condition T108Ct2 = new Condition(T108, "P_170", TransitionCondition.NotNull);
+		T108Ct1.SetNextCondition(LogicConnector.AND, T108Ct2);
+
+		GuardMapping grdT108 = new GuardMapping();
+		grdT108.condition = T108Ct1;
+		grdT108.Activations.add(new Activation(T108, "P_41", TransitionOperation.SendOverNetwork, "P_16"));
+		T108.GuardMappingList.add(grdT108);
+
+		T108.Delay = 0;
+		pn.Transitions.add(T108);
+
+		// T109 ------------------------------------------------
+		PetriTransition T109 = new PetriTransition(pn);
+		T109.TransitionName = "T109";
+		T109.InputPlaceName.add("P_85");
+		T109.InputPlaceName.add("P_86");
+
+		Condition T109Ct1 = new Condition(T109, "P_85", TransitionCondition.CanNotAddCars);
+		Condition T109Ct2 = new Condition(T109, "P_86", TransitionCondition.NotNull);
+		T109Ct1.SetNextCondition(LogicConnector.AND, T109Ct2);
+
+		GuardMapping grdT109 = new GuardMapping();
+		grdT109.condition = T109Ct1;
+		grdT109.Activations.add(new Activation(T109, "P_85", TransitionOperation.SendOverNetwork, "P_176"));
+		T109.GuardMappingList.add(grdT109);
+
+		T109.Delay = 0;
+		pn.Transitions.add(T109);
+
+		// T111 ------------------------------------------------
+		PetriTransition T111 = new PetriTransition(pn);
+		T111.TransitionName = "T111";
+		T111.InputPlaceName.add("P_93");
+		T111.InputPlaceName.add("P_97");
+
+		Condition T111Ct1 = new Condition(T111, "P_93", TransitionCondition.CanNotAddCars);
+		Condition T111Ct2 = new Condition(T111, "P_97", TransitionCondition.NotNull);
+		T111Ct1.SetNextCondition(LogicConnector.AND, T111Ct2);
+
+		GuardMapping grdT111 = new GuardMapping();
+		grdT111.condition = T111Ct1;
+		grdT111.Activations.add(new Activation(T111, "P_93", TransitionOperation.SendOverNetwork, "P_178"));
+		T111.GuardMappingList.add(grdT111);
+
+		T111.Delay = 0;
+		pn.Transitions.add(T111);
 
 		// T14 ------------------------------------------------
 		PetriTransition t14 = new PetriTransition(pn);
@@ -718,7 +790,7 @@ public class Intersection {
 
 		GuardMapping grdT14 = new GuardMapping();
 		grdT14.condition = T14Ct1;
-		grdT14.Activations.add(new Activation(t14, "P_C0", TransitionOperation.AddElement, "P_C1"));
+		grdT14.Activations.add(new Activation(t14, "P_C0", TransitionOperation.Move, "P_C1"));
 		t14.GuardMappingList.add(grdT14);
 
 		t14.Delay = 0;
@@ -736,7 +808,7 @@ public class Intersection {
 
 		GuardMapping grdT3 = new GuardMapping();
 		grdT3.condition = T3Ct1;
-		grdT3.Activations.add(new Activation(t3, "P_C1", TransitionOperation.AddElement, "P_C2"));
+		grdT3.Activations.add(new Activation(t3, "P_C1", TransitionOperation.Move, "P_C2"));
 		grdT3.Activations.add(new Activation(t3, "P_C2", TransitionOperation.Move, "P_14"));
 		t3.GuardMappingList.add(grdT3);
 
@@ -750,6 +822,8 @@ public class Intersection {
 		t10.InputPlaceName.add("P_14");
 
 		Condition T10Ct1 = new Condition(t10, "P_C2", TransitionCondition.NotNull);
+		Condition T10Ct2 = new Condition(t10, "P_C2", TransitionCondition.IsPriorityCar);
+		T10Ct1.SetNextCondition(LogicConnector.OR, T10Ct2);
 
 		GuardMapping grdT10 = new GuardMapping();
 		grdT10.condition = T10Ct1;
@@ -770,7 +844,7 @@ public class Intersection {
 
 		GuardMapping grdT5 = new GuardMapping();
 		grdT5.condition = T5Ct1;
-		grdT5.Activations.add(new Activation(t5, "P_T0", TransitionOperation.AddElement, "P_T1"));
+		grdT5.Activations.add(new Activation(t5, "P_T0", TransitionOperation.Move, "P_T1"));
 		t5.GuardMappingList.add(grdT5);
 
 		t5.Delay = 0;
@@ -785,7 +859,7 @@ public class Intersection {
 
 		GuardMapping grdT4 = new GuardMapping();
 		grdT4.condition = T4Ct1;
-		grdT4.Activations.add(new Activation(t4, "P_T1", TransitionOperation.AddElement, "P_T2"));
+		grdT4.Activations.add(new Activation(t4, "P_T1", TransitionOperation.Move, "P_T2"));
 		t4.GuardMappingList.add(grdT4);
 
 		t4.Delay = 0;
@@ -800,7 +874,7 @@ public class Intersection {
 
 		GuardMapping grdT12 = new GuardMapping();
 		grdT12.condition = T12Ct1;
-		grdT12.Activations.add(new Activation(t12, "P115", TransitionOperation.AddElement, "P_T3"));
+		grdT12.Activations.add(new Activation(t12, "P115", TransitionOperation.Move, "P_T3"));
 		t12.GuardMappingList.add(grdT12);
 
 		t12.Delay = 0;
@@ -815,7 +889,7 @@ public class Intersection {
 
 		GuardMapping grdT13 = new GuardMapping();
 		grdT13.condition = T13Ct1;
-		grdT13.Activations.add(new Activation(t13, "P115", TransitionOperation.AddElement, "P_C3"));
+		grdT13.Activations.add(new Activation(t13, "P115", TransitionOperation.Move, "P_C3"));
 		t13.GuardMappingList.add(grdT13);
 
 		t13.Delay = 0;
@@ -830,7 +904,7 @@ public class Intersection {
 
 		GuardMapping grdT7 = new GuardMapping();
 		grdT7.condition = T7Ct1;
-		grdT7.Activations.add(new Activation(t7, "P_T3", TransitionOperation.AddElement, "P_T4"));
+		grdT7.Activations.add(new Activation(t7, "P_T3", TransitionOperation.Move, "P_T4"));
 		t7.GuardMappingList.add(grdT7);
 
 		t7.Delay = 0;
@@ -845,7 +919,7 @@ public class Intersection {
 
 		GuardMapping grdT6 = new GuardMapping();
 		grdT6.condition = T6Ct1;
-		grdT6.Activations.add(new Activation(t6, "P_T4", TransitionOperation.AddElement, "P_T5"));
+		grdT6.Activations.add(new Activation(t6, "P_T4", TransitionOperation.Move, "P_T5"));
 		t6.GuardMappingList.add(grdT6);
 
 		t6.Delay = 0;
@@ -860,7 +934,7 @@ public class Intersection {
 
 		GuardMapping grdT9 = new GuardMapping();
 		grdT9.condition = T9Ct1;
-		grdT9.Activations.add(new Activation(t9, "P_C3", TransitionOperation.AddElement, "P_C4"));
+		grdT9.Activations.add(new Activation(t9, "P_C3", TransitionOperation.Move, "P_C4"));
 		t9.GuardMappingList.add(grdT9);
 
 		t9.Delay = 0;
@@ -875,7 +949,7 @@ public class Intersection {
 
 		GuardMapping grdT8 = new GuardMapping();
 		grdT8.condition = T8Ct1;
-		grdT8.Activations.add(new Activation(t8, "P_C4", TransitionOperation.AddElement, "P_C5"));
+		grdT8.Activations.add(new Activation(t8, "P_C4", TransitionOperation.Move, "P_C5"));
 		t8.GuardMappingList.add(grdT8);
 
 		t8.Delay = 0;
@@ -890,7 +964,7 @@ public class Intersection {
 
 		GuardMapping grdT81 = new GuardMapping();
 		grdT81.condition = T81Ct1;
-		grdT81.Activations.add(new Activation(t81, "P_15", TransitionOperation.AddElement, "P_115"));
+		grdT81.Activations.add(new Activation(t81, "P_15", TransitionOperation.Move, "P_115"));
 		t81.GuardMappingList.add(grdT81);
 
 		t81.Delay = 0;
@@ -905,7 +979,7 @@ public class Intersection {
 
 		GuardMapping grdT15 = new GuardMapping();
 		grdT15.condition = T15Ct1;
-		grdT15.Activations.add(new Activation(t15, "P_15", TransitionOperation.AddElement, "P_16"));
+		grdT15.Activations.add(new Activation(t15, "P_15", TransitionOperation.Move, "P_16"));
 		t15.GuardMappingList.add(grdT15);
 
 		t15.Delay = 0;
@@ -920,11 +994,11 @@ public class Intersection {
 
 		GuardMapping grdT24 = new GuardMapping();
 		grdT24.condition = T24Ct1;
-		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.AddElement, "P_17"));
-		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.AddElement, "P_21"));
-		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.AddElement, "P_23"));
-		grdT24.Activations.add(new Activation(t24, "P_23", TransitionOperation.AddElement, "P_16"));
-		grdT24.Activations.add(new Activation(t24, "P_21", TransitionOperation.AddElement, "P_16"));
+		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.Move, "P_17"));
+		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.Move, "P_21"));
+		grdT24.Activations.add(new Activation(t24, "P_16", TransitionOperation.Move, "P_23"));
+		grdT24.Activations.add(new Activation(t24, "P_23", TransitionOperation.Move, "P_16"));
+		grdT24.Activations.add(new Activation(t24, "P_21", TransitionOperation.Move, "P_16"));
 		t24.GuardMappingList.add(grdT24);
 
 		t24.Delay = 0;
@@ -939,11 +1013,11 @@ public class Intersection {
 
 		GuardMapping grdT25 = new GuardMapping();
 		grdT25.condition = T25Ct1;
-		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.AddElement, "P_18"));
-		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.AddElement, "P_20"));
-		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.AddElement, "P_19"));
-		grdT25.Activations.add(new Activation(t25, "P_20", TransitionOperation.AddElement, "P_17"));
-		grdT25.Activations.add(new Activation(t25, "P_19", TransitionOperation.AddElement, "P_17"));
+		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.Move, "P_18"));
+		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.Move, "P_20"));
+		grdT25.Activations.add(new Activation(t25, "P_17", TransitionOperation.Move, "P_19"));
+		grdT25.Activations.add(new Activation(t25, "P_20", TransitionOperation.Move, "P_17"));
+		grdT25.Activations.add(new Activation(t25, "P_19", TransitionOperation.Move, "P_17"));
 		t25.GuardMappingList.add(grdT25);
 
 		t25.Delay = 0;
@@ -959,7 +1033,7 @@ public class Intersection {
 		GuardMapping grdT1001 = new GuardMapping();
 		grdT1001.condition = T1001Ct1;
 		grdT1001.Activations.add(new Activation(t1001, "Five", TransitionOperation.DynamicDelay,""));
-		grdT1001.Activations.add(new Activation(t1001, "P_18", TransitionOperation.AddElement, "P_157"));
+		grdT1001.Activations.add(new Activation(t1001, "P_18", TransitionOperation.Move, "P_157"));
 		t1001.GuardMappingList.add(grdT1001);
 
 		t1001.Delay = 0;
@@ -977,8 +1051,8 @@ public class Intersection {
 
 		GuardMapping grdT93 = new GuardMapping();
 		grdT93.condition = T93Ct1;
-		grdT93.Activations.add(new Activation(t93, "P_18", TransitionOperation.AddElement, "P_29"));
-		grdT93.Activations.add(new Activation(t93, "P_157", TransitionOperation.AddElement, "P_29"));
+		grdT93.Activations.add(new Activation(t93, "P_18", TransitionOperation.Move, "P_29"));
+		grdT93.Activations.add(new Activation(t93, "P_157", TransitionOperation.Move, "P_29"));
 		t93.GuardMappingList.add(grdT93);
 
 		t93.Delay = 0;
@@ -990,13 +1064,15 @@ public class Intersection {
 		t30.InputPlaceName.add("P_28");
 
 		Condition T30Ct1 = new Condition(t30, "P_28", TransitionCondition.NotNull);
+		Condition T30Ct2 = new Condition(t30, "P_28", TransitionCondition.IsPriorityCar);
+		T30Ct1.SetNextCondition(LogicConnector.AND, T30Ct2);
 
 		GuardMapping grdT30 = new GuardMapping();
 		grdT30.condition = T30Ct1;
-		grdT30.Activations.add(new Activation(t30, "P_28", TransitionOperation.AddElement, "P_15"));
-		grdT30.Activations.add(new Activation(t30, "P_28", TransitionOperation.AddElement, "P_116"));
-		grdT30.Activations.add(new Activation(t30, "P_116", TransitionOperation.AddElement, "P_28"));
-		grdT30.Activations.add(new Activation(t30, "P_116", TransitionOperation.AddElement, "P_15"));
+		grdT30.Activations.add(new Activation(t30, "P_28", TransitionOperation.Move, "P_15"));
+		grdT30.Activations.add(new Activation(t30, "P_28", TransitionOperation.Move, "P_116"));
+		grdT30.Activations.add(new Activation(t30, "P_116", TransitionOperation.Move, "P_28"));
+		grdT30.Activations.add(new Activation(t30, "P_116", TransitionOperation.Move, "P_15"));
 		t30.GuardMappingList.add(grdT30);
 
 		t30.Delay = 0;
@@ -1017,11 +1093,11 @@ public class Intersection {
 
 		GuardMapping grdT27 = new GuardMapping();
 		grdT27.condition = T27Ct1;
-		grdT27.Activations.add(new Activation(t27, "P_27", TransitionOperation.AddElement, "P_28"));
-		grdT27.Activations.add(new Activation(t27, "P_24", TransitionOperation.AddElement, "P_28"));
-		grdT27.Activations.add(new Activation(t27, "P_25", TransitionOperation.AddElement, "P_28"));
-		grdT27.Activations.add(new Activation(t27, "P_28", TransitionOperation.AddElement, "P_24"));
-		grdT27.Activations.add(new Activation(t27, "P_28", TransitionOperation.AddElement, "P_25"));
+		grdT27.Activations.add(new Activation(t27, "P_27", TransitionOperation.Move, "P_28"));
+		grdT27.Activations.add(new Activation(t27, "P_24", TransitionOperation.Move, "P_28"));
+		grdT27.Activations.add(new Activation(t27, "P_25", TransitionOperation.Move, "P_28"));
+		grdT27.Activations.add(new Activation(t27, "P_28", TransitionOperation.Move, "P_24"));
+		grdT27.Activations.add(new Activation(t27, "P_28", TransitionOperation.Move, "P_25"));
 		t27.GuardMappingList.add(grdT27);
 
 		t27.Delay = 0;
@@ -1039,9 +1115,9 @@ public class Intersection {
 
 		GuardMapping grdT26 = new GuardMapping();
 		grdT26.condition = T26Ct1;
-		grdT26.Activations.add(new Activation(t26, "P_26", TransitionOperation.AddElement, "P_27"));
-		grdT26.Activations.add(new Activation(t26, "P_24", TransitionOperation.AddElement, "P_27"));
-		grdT26.Activations.add(new Activation(t26, "P_27", TransitionOperation.AddElement, "P_24"));
+		grdT26.Activations.add(new Activation(t26, "P_26", TransitionOperation.Move, "P_27"));
+		grdT26.Activations.add(new Activation(t26, "P_24", TransitionOperation.Move, "P_27"));
+		grdT26.Activations.add(new Activation(t26, "P_27", TransitionOperation.Move, "P_24"));
 		t26.GuardMappingList.add(grdT26);
 
 		t26.Delay = 0;
@@ -1057,7 +1133,7 @@ public class Intersection {
 		GuardMapping grdT96 = new GuardMapping();
 		grdT96.condition = T96Ct1;
 		grdT96.Activations.add(new Activation(t96, "Five", TransitionOperation.DynamicDelay,""));
-		grdT96.Activations.add(new Activation(t96, "P_30", TransitionOperation.AddElement, "P_160"));
+		grdT96.Activations.add(new Activation(t96, "P_30", TransitionOperation.Move, "P_160"));
 		t96.GuardMappingList.add(grdT96);
 
 		t96.Delay = 0;
@@ -1073,7 +1149,7 @@ public class Intersection {
 
 		GuardMapping grdT94 = new GuardMapping();
 		grdT94.condition = T94Ct1;
-		grdT94.Activations.add(new Activation(t94, "P_30", TransitionOperation.AddElement, "P_26"));
+		grdT94.Activations.add(new Activation(t94, "P_30", TransitionOperation.Move, "P_26"));
 		t94.GuardMappingList.add(grdT94);
 
 		t94.Delay = 0;
@@ -1082,15 +1158,17 @@ public class Intersection {
 		// T11 ------------------------------------------------
 		PetriTransition t11 = new PetriTransition(pn);
 		t11.TransitionName = "T11";
-		t11.InputPlaceName.add("P_114");
+		t11.InputPlaceName.add("P_T2");
 
 		Condition T11Ct1 = new Condition(t11, "P_T2", TransitionCondition.NotNull);
+		Condition T11Ct2 = new Condition(t11, "P_T2", TransitionCondition.IsPriorityCar);
+		T11Ct1.SetNextCondition(LogicConnector.OR, T11Ct2);
 
 		GuardMapping grdT11 = new GuardMapping();
 		grdT11.condition = T11Ct1;
-		grdT11.Activations.add(new Activation(t11, "P_T2", TransitionOperation.AddElement, "P_114"));
-		grdT11.Activations.add(new Activation(t11, "P_114", TransitionOperation.AddElement, "P_T2"));
-		grdT11.Activations.add(new Activation(t11, "P_T2", TransitionOperation.AddElement, "P_15"));
+		grdT11.Activations.add(new Activation(t11, "P_T2", TransitionOperation.Move, "P_114"));
+		grdT11.Activations.add(new Activation(t11, "P_114", TransitionOperation.Move, "P_T2"));
+		grdT11.Activations.add(new Activation(t11, "P_T2", TransitionOperation.Move, "P_15"));
 		t11.GuardMappingList.add(grdT11);
 
 		t11.Delay = 0;
@@ -1100,18 +1178,17 @@ public class Intersection {
 		PetriTransition t16 = new PetriTransition(pn);
 		t16.TransitionName = "T16";
 		t16.InputPlaceName.add("P_58");
-		t16.InputPlaceName.add("P_117");
 
 		Condition T16Ct1 = new Condition(t16, "P_58", TransitionCondition.NotNull);
-		Condition T16Ct2 = new Condition(t16, "P_117", TransitionCondition.NotNull);
-		T16Ct1.SetNextCondition(LogicConnector.AND, T16Ct2);
+		Condition T16Ct2 = new Condition(t16, "P_58", TransitionCondition.IsPriorityCar);
+		T16Ct1.SetNextCondition(LogicConnector.OR, T16Ct2);
 
 		GuardMapping grdT16 = new GuardMapping();
 		grdT16.condition = T16Ct1;
-		grdT16.Activations.add(new Activation(t16, "P_58", TransitionOperation.AddElement, "P_15"));
-		grdT16.Activations.add(new Activation(t16, "P_117", TransitionOperation.AddElement, "P_15"));
-		grdT16.Activations.add(new Activation(t16, "P_117", TransitionOperation.AddElement, "P_58"));
-		grdT16.Activations.add(new Activation(t16, "P_58", TransitionOperation.AddElement, "P_117"));
+		grdT16.Activations.add(new Activation(t16, "P_58", TransitionOperation.Move, "P_15"));
+		grdT16.Activations.add(new Activation(t16, "P_117", TransitionOperation.Move, "P_15"));
+		grdT16.Activations.add(new Activation(t16, "P_117", TransitionOperation.Move, "P_58"));
+		grdT16.Activations.add(new Activation(t16, "P_58", TransitionOperation.Move, "P_117"));
 		t16.GuardMappingList.add(grdT16);
 
 		t16.Delay = 0;
@@ -1126,8 +1203,8 @@ public class Intersection {
 
 		GuardMapping grdT45 = new GuardMapping();
 		grdT45.condition = T45Ct1;
-		grdT45.Activations.add(new Activation(t45, "P_59", TransitionOperation.AddElement, "P_58"));
-		grdT45.Activations.add(new Activation(t45, "P_58", TransitionOperation.AddElement, "P_59"));
+		grdT45.Activations.add(new Activation(t45, "P_59", TransitionOperation.Move, "P_58"));
+		grdT45.Activations.add(new Activation(t45, "P_58", TransitionOperation.Move, "P_59"));
 		t45.GuardMappingList.add(grdT45);
 
 		t45.Delay = 0;
@@ -1142,7 +1219,7 @@ public class Intersection {
 
 		GuardMapping grdT46 = new GuardMapping();
 		grdT46.condition = T46Ct1;
-		grdT46.Activations.add(new Activation(t46, "P_60", TransitionOperation.AddElement, "P_59"));
+		grdT46.Activations.add(new Activation(t46, "P_60", TransitionOperation.Move, "P_59"));
 		t46.GuardMappingList.add(grdT46);
 
 		t46.Delay = 0;
@@ -1152,18 +1229,17 @@ public class Intersection {
 		PetriTransition t17 = new PetriTransition(pn);
 		t17.TransitionName = "T17";
 		t17.InputPlaceName.add("P_55");
-		t17.InputPlaceName.add("P_117");
 
 		Condition T17Ct1 = new Condition(t17, "P_55", TransitionCondition.NotNull);
-		Condition T17Ct2 = new Condition(t17, "P_117", TransitionCondition.NotNull);
-		T17Ct1.SetNextCondition(LogicConnector.AND, T17Ct2);
+		Condition T17Ct2 = new Condition(t17, "P_55", TransitionCondition.IsPriorityCar);
+		T17Ct1.SetNextCondition(LogicConnector.OR, T17Ct2);
 
 		GuardMapping grdT17 = new GuardMapping();
 		grdT17.condition = T17Ct1;
-		grdT17.Activations.add(new Activation(t17, "P_55", TransitionOperation.AddElement, "P_15"));
-		grdT17.Activations.add(new Activation(t17, "P_117", TransitionOperation.AddElement, "P_15"));
-		grdT17.Activations.add(new Activation(t17, "P_117", TransitionOperation.AddElement, "P_55"));
-		grdT17.Activations.add(new Activation(t17, "P_55", TransitionOperation.AddElement, "P_117"));
+		grdT17.Activations.add(new Activation(t17, "P_55", TransitionOperation.Move, "P_15"));
+		grdT17.Activations.add(new Activation(t17, "P_117", TransitionOperation.Move, "P_15"));
+		grdT17.Activations.add(new Activation(t17, "P_117", TransitionOperation.Move, "P_55"));
+		grdT17.Activations.add(new Activation(t17, "P_55", TransitionOperation.Move, "P_117"));
 		t17.GuardMappingList.add(grdT17);
 
 		t17.Delay = 0;
@@ -1181,8 +1257,8 @@ public class Intersection {
 
 		GuardMapping grdT43 = new GuardMapping();
 		grdT43.condition = T43Ct1;
-		grdT43.Activations.add(new Activation(t43, "P_56", TransitionOperation.AddElement, "P_55"));
-		grdT43.Activations.add(new Activation(t43, "P_156", TransitionOperation.AddElement, "P_55"));
+		grdT43.Activations.add(new Activation(t43, "P_56", TransitionOperation.Move, "P_55"));
+		grdT43.Activations.add(new Activation(t43, "P_156", TransitionOperation.Move, "P_55"));
 		t43.GuardMappingList.add(grdT43);
 
 		t43.Delay = 0;
@@ -1197,7 +1273,7 @@ public class Intersection {
 
 		GuardMapping grdT44 = new GuardMapping();
 		grdT44.condition = T44Ct1;
-		grdT44.Activations.add(new Activation(t43, "P_57", TransitionOperation.AddElement, "P_56"));
+		grdT44.Activations.add(new Activation(t43, "P_57", TransitionOperation.Move, "P_56"));
 		t44.GuardMappingList.add(grdT44);
 
 		t44.Delay = 0;
@@ -1213,7 +1289,7 @@ public class Intersection {
 		GuardMapping grdT91 = new GuardMapping();
 		grdT91.condition = T91Ct1;
 		grdT91.Activations.add(new Activation(t91, "Five", TransitionOperation.DynamicDelay,""));
-		grdT91.Activations.add(new Activation(t91, "P_56", TransitionOperation.AddElement, "P_156"));
+		grdT91.Activations.add(new Activation(t91, "P_56", TransitionOperation.Move, "P_156"));
 		t91.GuardMappingList.add(grdT91);
 
 		t91.Delay = 0;
@@ -1228,7 +1304,7 @@ public class Intersection {
 
 		GuardMapping grdT82 = new GuardMapping();
 		grdT82.condition = T82Ct1;
-		grdT82.Activations.add(new Activation(t82, "P_15", TransitionOperation.AddElement, "P_118"));
+		grdT82.Activations.add(new Activation(t82, "P_15", TransitionOperation.Move, "P_118"));
 		t82.GuardMappingList.add(grdT82);
 
 		t82.Delay = 0;
@@ -1243,7 +1319,7 @@ public class Intersection {
 
 		GuardMapping grdT18 = new GuardMapping();
 		grdT18.condition = T18Ct1;
-		grdT18.Activations.add(new Activation(t18, "P_118", TransitionOperation.AddElement, "P_52"));
+		grdT18.Activations.add(new Activation(t18, "P_118", TransitionOperation.Move, "P_52"));
 		t18.GuardMappingList.add(grdT18);
 
 		t18.Delay = 0;
@@ -1259,7 +1335,7 @@ public class Intersection {
 		GuardMapping grdT92 = new GuardMapping();
 		grdT92.condition = T92Ct1;
 		grdT92.Activations.add(new Activation(t92, "Five", TransitionOperation.DynamicDelay,""));
-		grdT92.Activations.add(new Activation(t92, "P_52", TransitionOperation.AddElement, "P_159"));
+		grdT92.Activations.add(new Activation(t92, "P_52", TransitionOperation.Move, "P_159"));
 		t92.GuardMappingList.add(grdT92);
 
 		t92.Delay = 0;
@@ -1278,7 +1354,7 @@ public class Intersection {
 		GuardMapping grdT41 = new GuardMapping();
 		grdT41.condition = T41Ct1;
 		grdT41.Activations.add(new Activation(t41, "P_52", TransitionOperation.DynamicDelay,"P_53"));
-		grdT41.Activations.add(new Activation(t41, "P_159", TransitionOperation.AddElement, "P_53"));
+		grdT41.Activations.add(new Activation(t41, "P_159", TransitionOperation.Move, "P_53"));
 		t41.GuardMappingList.add(grdT41);
 
 		t41.Delay = 0;
@@ -1293,7 +1369,7 @@ public class Intersection {
 
 		GuardMapping grdT42 = new GuardMapping();
 		grdT42.condition = T42Ct1;
-		grdT42.Activations.add(new Activation(t42, "P_53", TransitionOperation.AddElement, "P_54"));
+		grdT42.Activations.add(new Activation(t42, "P_53", TransitionOperation.Move, "P_54"));
 		t42.GuardMappingList.add(grdT42);
 
 		t42.Delay = 0;
@@ -1308,7 +1384,7 @@ public class Intersection {
 
 		GuardMapping grdT19 = new GuardMapping();
 		grdT19.condition = T19Ct1;
-		grdT19.Activations.add(new Activation(t19, "P_118", TransitionOperation.AddElement, "P_49"));
+		grdT19.Activations.add(new Activation(t19, "P_118", TransitionOperation.Move, "P_49"));
 		t19.GuardMappingList.add(grdT19);
 
 		t19.Delay = 0;
@@ -1323,7 +1399,7 @@ public class Intersection {
 
 		GuardMapping grdT39 = new GuardMapping();
 		grdT39.condition = T39Ct1;
-		grdT39.Activations.add(new Activation(t39, "P_49", TransitionOperation.AddElement, "P_50"));
+		grdT39.Activations.add(new Activation(t39, "P_49", TransitionOperation.Move, "P_50"));
 		t39.GuardMappingList.add(grdT39);
 
 		t39.Delay = 0;
@@ -1338,7 +1414,7 @@ public class Intersection {
 
 		GuardMapping grdT40 = new GuardMapping();
 		grdT40.condition = T40Ct1;
-		grdT40.Activations.add(new Activation(t40, "P_50", TransitionOperation.AddElement, "P_51"));
+		grdT40.Activations.add(new Activation(t40, "P_50", TransitionOperation.Move, "P_51"));
 		t40.GuardMappingList.add(grdT40);
 
 		t40.Delay = 0;
@@ -1353,7 +1429,7 @@ public class Intersection {
 
 		GuardMapping grdT83 = new GuardMapping();
 		grdT83.condition = T83Ct1;
-		grdT83.Activations.add(new Activation(t83, "P_15", TransitionOperation.AddElement, "P_119"));
+		grdT83.Activations.add(new Activation(t83, "P_15", TransitionOperation.Move, "P_119"));
 		t83.GuardMappingList.add(grdT83);
 
 		t83.Delay = 0;
@@ -1368,7 +1444,7 @@ public class Intersection {
 
 		GuardMapping grdT20 = new GuardMapping();
 		grdT20.condition = T20Ct1;
-		grdT20.Activations.add(new Activation(t20, "P_119", TransitionOperation.AddElement, "P_31"));
+		grdT20.Activations.add(new Activation(t20, "P_119", TransitionOperation.Move, "P_31"));
 		t20.GuardMappingList.add(grdT20);
 
 		t20.Delay = 0;
@@ -1383,7 +1459,7 @@ public class Intersection {
 
 		GuardMapping grdT35 = new GuardMapping();
 		grdT35.condition = T35Ct1;
-		grdT35.Activations.add(new Activation(t35, "P_119", TransitionOperation.AddElement, "P_35"));
+		grdT35.Activations.add(new Activation(t35, "P_119", TransitionOperation.Move, "P_35"));
 		t35.GuardMappingList.add(grdT35);
 
 		t35.Delay = 0;
@@ -1398,8 +1474,8 @@ public class Intersection {
 
 		GuardMapping grdT31 = new GuardMapping();
 		grdT31.condition = T31Ct1;
-		grdT31.Activations.add(new Activation(t31, "P_31", TransitionOperation.AddElement, "P_34"));
-		grdT31.Activations.add(new Activation(t31, "P_31", TransitionOperation.AddElement, "P_148"));
+		grdT31.Activations.add(new Activation(t31, "P_31", TransitionOperation.Move, "P_34"));
+		grdT31.Activations.add(new Activation(t31, "P_31", TransitionOperation.Move, "P_148"));
 		t31.GuardMappingList.add(grdT31);
 
 		t31.Delay = 0;
@@ -1416,14 +1492,14 @@ public class Intersection {
 
 		GuardMapping grdT89 = new GuardMapping();
 		grdT89.condition = T89Ct1;
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_154"));
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_144"));
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_143"));
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_157"));
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_155"));
-		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.AddElement, "P_158"));
-		grdT89.Activations.add(new Activation(t89, "P_149", TransitionOperation.AddElement, "P_144"));
-		grdT89.Activations.add(new Activation(t89, "P_149", TransitionOperation.AddElement, "P_143"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_154"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_144"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_143"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_157"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_155"));
+		grdT89.Activations.add(new Activation(t89, "P_148", TransitionOperation.Move, "P_158"));
+		grdT89.Activations.add(new Activation(t89, "P_149", TransitionOperation.Move, "P_144"));
+		grdT89.Activations.add(new Activation(t89, "P_149", TransitionOperation.Move, "P_143"));
 		t89.GuardMappingList.add(grdT89);
 
 		t89.Delay = 0;
@@ -1438,7 +1514,7 @@ public class Intersection {
 
 		GuardMapping grdT21 = new GuardMapping();
 		grdT21.condition = T21Ct1;
-		grdT21.Activations.add(new Activation(t21, "P_119", TransitionOperation.AddElement, "P_35"));
+		grdT21.Activations.add(new Activation(t21, "P_119", TransitionOperation.Move, "P_35"));
 		t21.GuardMappingList.add(grdT21);
 
 		t21.Delay = 0;
@@ -1456,8 +1532,8 @@ public class Intersection {
 
 		GuardMapping grdT33 = new GuardMapping();
 		grdT33.condition = T33Ct1;
-		grdT33.Activations.add(new Activation(t33, "P_35", TransitionOperation.AddElement, "P_149"));
-		grdT33.Activations.add(new Activation(t33, "P_158", TransitionOperation.AddElement, "P_149"));
+		grdT33.Activations.add(new Activation(t33, "P_35", TransitionOperation.Move, "P_149"));
+		grdT33.Activations.add(new Activation(t33, "P_158", TransitionOperation.Move, "P_149"));
 		t33.GuardMappingList.add(grdT33);
 
 		t33.Delay = 0;
@@ -1473,7 +1549,7 @@ public class Intersection {
 		GuardMapping grdT97 = new GuardMapping();
 		grdT97.condition = T97Ct1;
 		grdT97.Activations.add(new Activation(t97, "Five", TransitionOperation.DynamicDelay,""));
-		grdT97.Activations.add(new Activation(t97, "P_35", TransitionOperation.AddElement, "P_158"));
+		grdT97.Activations.add(new Activation(t97, "P_35", TransitionOperation.Move, "P_158"));
 		t97.GuardMappingList.add(grdT97);
 
 		t97.Delay = 0;
@@ -1497,12 +1573,12 @@ public class Intersection {
 
 		GuardMapping grdT47 = new GuardMapping();
 		grdT47.condition = T47Ct1;
-		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.AddElement, "P_132"));
-		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.AddElement, "P_6"));
-		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.AddElement, "P_129"));
-		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.AddElement, "P_121"));
-		grdT47.Activations.add(new Activation(t47, "P_132", TransitionOperation.AddElement, "P_121"));
-		grdT47.Activations.add(new Activation(t47, "P_129", TransitionOperation.AddElement, "P_121"));
+		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.Move, "P_132"));
+		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.Move, "P_6"));
+		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.Move, "P_129"));
+		grdT47.Activations.add(new Activation(t47, "P_144", TransitionOperation.Move, "P_121"));
+		grdT47.Activations.add(new Activation(t47, "P_132", TransitionOperation.Move, "P_121"));
+		grdT47.Activations.add(new Activation(t47, "P_129", TransitionOperation.Move, "P_121"));
 		t47.GuardMappingList.add(grdT47);
 
 		t47.Delay = 0;
@@ -1520,9 +1596,9 @@ public class Intersection {
 
 		GuardMapping grdT48 = new GuardMapping();
 		grdT48.condition = T48Ct1;
-		grdT48.Activations.add(new Activation(t48, "P_143", TransitionOperation.AddElement, "P_121"));
-		grdT48.Activations.add(new Activation(t48, "P_143", TransitionOperation.AddElement, "P_6"));
-		grdT48.Activations.add(new Activation(t48, "P_121", TransitionOperation.AddElement, "P_162"));
+		grdT48.Activations.add(new Activation(t48, "P_143", TransitionOperation.Move, "P_121"));
+		grdT48.Activations.add(new Activation(t48, "P_143", TransitionOperation.Move, "P_6"));
+		grdT48.Activations.add(new Activation(t48, "P_121", TransitionOperation.Move, "P_162"));
 
 		t48.GuardMappingList.add(grdT48);
 
@@ -1538,7 +1614,7 @@ public class Intersection {
 
 		GuardMapping grdT98 = new GuardMapping();
 		grdT98.condition = T98Ct1;
-		grdT98.Activations.add(new Activation(t98, "P_141", TransitionOperation.AddElement, "P_143"));
+		grdT98.Activations.add(new Activation(t98, "P_141", TransitionOperation.Move, "P_143"));
 		t98.GuardMappingList.add(grdT98);
 
 		t98.Delay = 0;
@@ -1553,7 +1629,7 @@ public class Intersection {
 
 		GuardMapping grdT84 = new GuardMapping();
 		grdT84.condition = T84Ct1;
-		grdT84.Activations.add(new Activation(t84, "P_6", TransitionOperation.AddElement, "P_120"));
+		grdT84.Activations.add(new Activation(t84, "P_6", TransitionOperation.Move, "P_120"));
 		t84.GuardMappingList.add(grdT84);
 
 		t84.Delay = 0;
@@ -1568,9 +1644,9 @@ public class Intersection {
 
 		GuardMapping grdT50 = new GuardMapping();
 		grdT50.condition = T50Ct1;
-		grdT50.Activations.add(new Activation(t50, "P_120", TransitionOperation.AddElement, "P_128"));
-		grdT50.Activations.add(new Activation(t50, "P_120", TransitionOperation.AddElement, "P_142"));
-		grdT50.Activations.add(new Activation(t50, "P_128", TransitionOperation.AddElement, "P_142"));
+		grdT50.Activations.add(new Activation(t50, "P_120", TransitionOperation.Move, "P_128"));
+		grdT50.Activations.add(new Activation(t50, "P_120", TransitionOperation.Move, "P_142"));
+		grdT50.Activations.add(new Activation(t50, "P_128", TransitionOperation.Move, "P_142"));
 		t50.GuardMappingList.add(grdT50);
 
 		t50.Delay = 0;
@@ -1585,7 +1661,7 @@ public class Intersection {
 
 		GuardMapping grdT49 = new GuardMapping();
 		grdT49.condition = T49Ct1;
-		grdT49.Activations.add(new Activation(t49, "P_120", TransitionOperation.AddElement, "P_141"));
+		grdT49.Activations.add(new Activation(t49, "P_120", TransitionOperation.Move, "P_141"));
 		t49.GuardMappingList.add(grdT49);
 
 		t49.Delay = 0;
@@ -1601,7 +1677,7 @@ public class Intersection {
 		GuardMapping grdT99 = new GuardMapping();
 		grdT99.condition = T99Ct1;
 		grdT99.Activations.add(new Activation(t99, "Five", TransitionOperation.DynamicDelay,""));
-		grdT99.Activations.add(new Activation(t99, "P_141", TransitionOperation.AddElement, "P_163"));
+		grdT99.Activations.add(new Activation(t99, "P_141", TransitionOperation.Move, "P_163"));
 		t99.GuardMappingList.add(grdT99);
 
 		t99.Delay = 0;
@@ -1631,39 +1707,39 @@ public class Intersection {
 
 		GuardMapping grdT90 = new GuardMapping();
 		grdT90.condition = T90Ct1;
-		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.AddElement, "P_155"));
-		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.AddElement, "P_152"));
-		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.Move, "P_155"));
+		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.Move, "P_152"));
+		grdT90.Activations.add(new Activation(t90, "P_141", TransitionOperation.Move, "P_151"));
 
-		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.AddElement, "P_155"));
-		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.AddElement, "P_152"));
-		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.Move, "P_155"));
+		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.Move, "P_152"));
+		grdT90.Activations.add(new Activation(t90, "P_142", TransitionOperation.Move, "P_151"));
 
-		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.AddElement, "P_155"));
-		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.AddElement, "P_152"));
-		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.Move, "P_155"));
+		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.Move, "P_152"));
+		grdT90.Activations.add(new Activation(t90, "P_163", TransitionOperation.Move, "P_151"));
 
-		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.AddElement, "P_155"));
-		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.AddElement, "P_152"));
-		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.Move, "P_155"));
+		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.Move, "P_152"));
+		grdT90.Activations.add(new Activation(t90, "P_156", TransitionOperation.Move, "P_151"));
 
-		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.AddElement, "P_152"));
-		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.Move, "P_152"));
+		grdT90.Activations.add(new Activation(t90, "P_155", TransitionOperation.Move, "P_151"));
 
-		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.AddElement, "P_150"));
-		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.AddElement, "P_153"));
-		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.AddElement, "P_155"));
-		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.AddElement, "P_151"));
+		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.Move, "P_150"));
+		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.Move, "P_153"));
+		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.Move, "P_155"));
+		grdT90.Activations.add(new Activation(t90, "P_152", TransitionOperation.Move, "P_151"));
 		t90.GuardMappingList.add(grdT90);
 
 		t90.Delay = 0;
@@ -1679,7 +1755,7 @@ public class Intersection {
 		GuardMapping grdT901 = new GuardMapping();
 		grdT901.condition = T901Ct1;
 		grdT901.Activations.add(new Activation(t901, "Five", TransitionOperation.DynamicDelay,""));
-		grdT901.Activations.add(new Activation(t901, "P_150", TransitionOperation.AddElement, "P_161"));
+		grdT901.Activations.add(new Activation(t901, "P_150", TransitionOperation.Move, "P_161"));
 		t901.GuardMappingList.add(grdT901);
 
 		t901.Delay = 0;
@@ -1697,10 +1773,10 @@ public class Intersection {
 
 		GuardMapping grdT36 = new GuardMapping();
 		grdT36.condition = T36Ct1;
-		grdT36.Activations.add(new Activation(t36, "P_150", TransitionOperation.AddElement, "P_38"));
-		grdT36.Activations.add(new Activation(t36, "P_161", TransitionOperation.AddElement, "P_38"));
-		grdT36.Activations.add(new Activation(t36, "P_38", TransitionOperation.AddElement, "P_161"));
-		grdT36.Activations.add(new Activation(t36, "P_38", TransitionOperation.AddElement, "P_150"));
+		grdT36.Activations.add(new Activation(t36, "P_150", TransitionOperation.Move, "P_38"));
+		grdT36.Activations.add(new Activation(t36, "P_161", TransitionOperation.Move, "P_38"));
+		grdT36.Activations.add(new Activation(t36, "P_38", TransitionOperation.Move, "P_161"));
+		grdT36.Activations.add(new Activation(t36, "P_38", TransitionOperation.Move, "P_150"));
 		t36.GuardMappingList.add(grdT36);
 
 		t36.Delay = 0;
@@ -1712,12 +1788,14 @@ public class Intersection {
 		t22.InputPlaceName.add("P_38");
 
 		Condition T22Ct1 = new Condition(t36, "P_38", TransitionCondition.NotNull);
+		Condition T22Ct2 = new Condition(t36, "P_38", TransitionCondition.IsPriorityCar);
+		T22Ct1.SetNextCondition(LogicConnector.OR, T22Ct2);
 
 		GuardMapping grdT22 = new GuardMapping();
 		grdT22.condition = T22Ct1;
-		grdT22.Activations.add(new Activation(t22, "P_38", TransitionOperation.AddElement, "P_127"));
-		grdT22.Activations.add(new Activation(t22, "P_38", TransitionOperation.AddElement, "P_15"));
-		grdT22.Activations.add(new Activation(t22, "P_127", TransitionOperation.AddElement, "P_38"));
+		grdT22.Activations.add(new Activation(t22, "P_38", TransitionOperation.Move, "P_127"));
+		grdT22.Activations.add(new Activation(t22, "P_38", TransitionOperation.Move, "P_15"));
+		grdT22.Activations.add(new Activation(t22, "P_127", TransitionOperation.Move, "P_38"));
 		t22.GuardMappingList.add(grdT22);
 
 		t22.Delay = 0;
@@ -1729,12 +1807,14 @@ public class Intersection {
 		t23.InputPlaceName.add("P_41");
 
 		Condition T23Ct1 = new Condition(t36, "P_41", TransitionCondition.NotNull);
+		Condition T23Ct2 = new Condition(t36, "P_41", TransitionCondition.IsPriorityCar);
+		T23Ct1.SetNextCondition(LogicConnector.OR, T23Ct2);
 
 		GuardMapping grdT23 = new GuardMapping();
 		grdT23.condition = T23Ct1;
-		grdT23.Activations.add(new Activation(t23, "P_41", TransitionOperation.AddElement, "P_127"));
-		grdT23.Activations.add(new Activation(t23, "P_41", TransitionOperation.AddElement, "P_15"));
-		grdT23.Activations.add(new Activation(t23, "P_127", TransitionOperation.AddElement, "P_41"));
+		grdT23.Activations.add(new Activation(t23, "P_41", TransitionOperation.Move, "P_127"));
+		grdT23.Activations.add(new Activation(t23, "P_41", TransitionOperation.Move, "P_15"));
+		grdT23.Activations.add(new Activation(t23, "P_127", TransitionOperation.Move, "P_41"));
 		t23.GuardMappingList.add(grdT23);
 
 		t23.Delay = 0;
@@ -1749,12 +1829,12 @@ public class Intersection {
 
 		GuardMapping grdT38 = new GuardMapping();
 		grdT38.condition = T38Ct1;
-		grdT38.Activations.add(new Activation(t38, "P_151", TransitionOperation.AddElement, "P_41"));
-		grdT38.Activations.add(new Activation(t38, "P_41", TransitionOperation.AddElement, "P_151"));
-		grdT38.Activations.add(new Activation(t38, "P_151", TransitionOperation.AddElement, "P_44"));
-		grdT38.Activations.add(new Activation(t38, "P_44", TransitionOperation.AddElement, "P_151"));
-		grdT38.Activations.add(new Activation(t38, "P_44", TransitionOperation.AddElement, "P_41"));
-		grdT38.Activations.add(new Activation(t38, "P_41", TransitionOperation.AddElement, "P_44"));
+		grdT38.Activations.add(new Activation(t38, "P_151", TransitionOperation.Move, "P_41"));
+		grdT38.Activations.add(new Activation(t38, "P_41", TransitionOperation.Move, "P_151"));
+		grdT38.Activations.add(new Activation(t38, "P_151", TransitionOperation.Move, "P_44"));
+		grdT38.Activations.add(new Activation(t38, "P_44", TransitionOperation.Move, "P_151"));
+		grdT38.Activations.add(new Activation(t38, "P_44", TransitionOperation.Move, "P_41"));
+		grdT38.Activations.add(new Activation(t38, "P_41", TransitionOperation.Move, "P_44"));
 		t23.GuardMappingList.add(grdT38);
 
 		t38.Delay = 0;
@@ -1766,13 +1846,15 @@ public class Intersection {
 		t55.InputPlaceName.add("P_62");
 
 		Condition T55Ct1 = new Condition(t36, "P_62", TransitionCondition.NotNull);
+		Condition T55Ct2 = new Condition(t36, "P_62", TransitionCondition.IsPriorityCar);
+		T55Ct1.SetNextCondition(LogicConnector.OR, T55Ct2);
 
 		GuardMapping grdT55 = new GuardMapping();
 		grdT55.condition = T55Ct1;
-		grdT55.Activations.add(new Activation(t55, "P_62", TransitionOperation.AddElement, "P_124"));
-		grdT55.Activations.add(new Activation(t55, "P_62", TransitionOperation.AddElement, "P_6"));
-		grdT55.Activations.add(new Activation(t55, "P_124", TransitionOperation.AddElement, "P_6"));
-		grdT55.Activations.add(new Activation(t55, "P_124", TransitionOperation.AddElement, "P_62"));
+		grdT55.Activations.add(new Activation(t55, "P_62", TransitionOperation.Move, "P_124"));
+		grdT55.Activations.add(new Activation(t55, "P_62", TransitionOperation.Move, "P_6"));
+		grdT55.Activations.add(new Activation(t55, "P_124", TransitionOperation.Move, "P_6"));
+		grdT55.Activations.add(new Activation(t55, "P_124", TransitionOperation.Move, "P_62"));
 		t55.GuardMappingList.add(grdT55);
 
 		t55.Delay = 0;
@@ -1787,12 +1869,12 @@ public class Intersection {
 
 		GuardMapping grdT62 = new GuardMapping();
 		grdT62.condition = T62Ct1;
-		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.AddElement, "P_62"));
-		grdT62.Activations.add(new Activation(t62, "P_62", TransitionOperation.AddElement, "P_63"));
-		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.AddElement, "P_69"));
-		grdT62.Activations.add(new Activation(t62, "P_69", TransitionOperation.AddElement, "P_63"));
-		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.AddElement, "P_68"));
-		grdT62.Activations.add(new Activation(t62, "P_68", TransitionOperation.AddElement, "P_63"));
+		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.Move, "P_62"));
+		grdT62.Activations.add(new Activation(t62, "P_62", TransitionOperation.Move, "P_63"));
+		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.Move, "P_69"));
+		grdT62.Activations.add(new Activation(t62, "P_69", TransitionOperation.Move, "P_63"));
+		grdT62.Activations.add(new Activation(t62, "P_63", TransitionOperation.Move, "P_68"));
+		grdT62.Activations.add(new Activation(t62, "P_68", TransitionOperation.Move, "P_63"));
 		t62.GuardMappingList.add(grdT62);
 
 		t62.Delay = 0;
@@ -1807,12 +1889,12 @@ public class Intersection {
 
 		GuardMapping grdT63 = new GuardMapping();
 		grdT63.condition = T63Ct1;
-		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.AddElement, "P_63"));
-		grdT63.Activations.add(new Activation(t63, "P_63", TransitionOperation.AddElement, "P_64"));
-		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.AddElement, "P_71"));
-		grdT63.Activations.add(new Activation(t63, "P_71", TransitionOperation.AddElement, "P_64"));
-		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.AddElement, "P_70"));
-		grdT63.Activations.add(new Activation(t63, "P_70", TransitionOperation.AddElement, "P_64"));
+		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.Move, "P_63"));
+		grdT63.Activations.add(new Activation(t63, "P_63", TransitionOperation.Move, "P_64"));
+		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.Move, "P_71"));
+		grdT63.Activations.add(new Activation(t63, "P_71", TransitionOperation.Move, "P_64"));
+		grdT63.Activations.add(new Activation(t63, "P_64", TransitionOperation.Move, "P_70"));
+		grdT63.Activations.add(new Activation(t63, "P_70", TransitionOperation.Move, "P_64"));
 
 		t63.GuardMappingList.add(grdT63);
 
@@ -1828,7 +1910,7 @@ public class Intersection {
 
 		GuardMapping grdT56 = new GuardMapping();
 		grdT56.condition = T56Ct1;
-		grdT56.Activations.add(new Activation(t56, "P_6", TransitionOperation.AddElement, "P_65"));
+		grdT56.Activations.add(new Activation(t56, "P_6", TransitionOperation.Move, "P_65"));
 		t56.GuardMappingList.add(grdT63);
 
 		t56.Delay = 0;
@@ -1843,9 +1925,9 @@ public class Intersection {
 
 		GuardMapping grdT61 = new GuardMapping();
 		grdT61.condition = T61Ct1;
-		grdT61.Activations.add(new Activation(t61, "P_65", TransitionOperation.AddElement, "P_66"));
-		grdT61.Activations.add(new Activation(t61, "P_65", TransitionOperation.AddElement, "P_72"));
-		grdT61.Activations.add(new Activation(t61, "P_72", TransitionOperation.AddElement, "P_65"));
+		grdT61.Activations.add(new Activation(t61, "P_65", TransitionOperation.Move, "P_66"));
+		grdT61.Activations.add(new Activation(t61, "P_65", TransitionOperation.Move, "P_72"));
+		grdT61.Activations.add(new Activation(t61, "P_72", TransitionOperation.Move, "P_65"));
 		t61.GuardMappingList.add(grdT61);
 
 		t61.Delay = 0;
@@ -1860,9 +1942,9 @@ public class Intersection {
 
 		GuardMapping grdT64 = new GuardMapping();
 		grdT64.condition = T64Ct1;
-		grdT64.Activations.add(new Activation(t64, "P_66", TransitionOperation.AddElement, "P_67"));
-		grdT64.Activations.add(new Activation(t64, "P_66", TransitionOperation.AddElement, "P_73"));
-		grdT64.Activations.add(new Activation(t64, "P_73", TransitionOperation.AddElement, "P_66"));
+		grdT64.Activations.add(new Activation(t64, "P_66", TransitionOperation.Move, "P_67"));
+		grdT64.Activations.add(new Activation(t64, "P_66", TransitionOperation.Move, "P_73"));
+		grdT64.Activations.add(new Activation(t64, "P_73", TransitionOperation.Move, "P_66"));
 		t64.GuardMappingList.add(grdT64);
 
 		t64.Delay = 0;
@@ -1877,7 +1959,7 @@ public class Intersection {
 
 		GuardMapping grdT85 = new GuardMapping();
 		grdT85.condition = T85Ct1;
-		grdT85.Activations.add(new Activation(t85, "P_6", TransitionOperation.AddElement, "P_122"));
+		grdT85.Activations.add(new Activation(t85, "P_6", TransitionOperation.Move, "P_122"));
 		t85.GuardMappingList.add(grdT85);
 
 		t85.Delay = 0;
@@ -1892,7 +1974,7 @@ public class Intersection {
 
 		GuardMapping grdT51 = new GuardMapping();
 		grdT51.condition = T51Ct1;
-		grdT51.Activations.add(new Activation(t51, "P_122", TransitionOperation.AddElement, "P_76"));
+		grdT51.Activations.add(new Activation(t51, "P_122", TransitionOperation.Move, "P_76"));
 		t51.GuardMappingList.add(grdT51);
 
 		t51.Delay = 0;
@@ -1907,7 +1989,7 @@ public class Intersection {
 
 		GuardMapping grdT65 = new GuardMapping();
 		grdT65.condition = T65Ct1;
-		grdT65.Activations.add(new Activation(t65, "P_76", TransitionOperation.AddElement, "P_77"));
+		grdT65.Activations.add(new Activation(t65, "P_76", TransitionOperation.Move, "P_77"));
 		t65.GuardMappingList.add(grdT65);
 
 		t65.Delay = 0;
@@ -1922,7 +2004,7 @@ public class Intersection {
 
 		GuardMapping grdT66 = new GuardMapping();
 		grdT66.condition = T66Ct1;
-		grdT66.Activations.add(new Activation(t66, "P_77", TransitionOperation.AddElement, "P_78"));
+		grdT66.Activations.add(new Activation(t66, "P_77", TransitionOperation.Move, "P_78"));
 		t66.GuardMappingList.add(grdT66);
 
 		t66.Delay = 0;
@@ -1937,7 +2019,7 @@ public class Intersection {
 
 		GuardMapping grdT52 = new GuardMapping();
 		grdT52.condition = T52Ct1;
-		grdT52.Activations.add(new Activation(t52, "P_122", TransitionOperation.AddElement, "P_79"));
+		grdT52.Activations.add(new Activation(t52, "P_122", TransitionOperation.Move, "P_79"));
 		t52.GuardMappingList.add(grdT52);
 
 		t52.Delay = 0;
@@ -1955,8 +2037,8 @@ public class Intersection {
 
 		GuardMapping grdT69 = new GuardMapping();
 		grdT69.condition = T69Ct1;
-		grdT69.Activations.add(new Activation(t69, "P_122", TransitionOperation.AddElement, "P_80"));
-		grdT69.Activations.add(new Activation(t69, "P_164", TransitionOperation.AddElement, "P_80"));
+		grdT69.Activations.add(new Activation(t69, "P_122", TransitionOperation.Move, "P_80"));
+		grdT69.Activations.add(new Activation(t69, "P_164", TransitionOperation.Move, "P_80"));
 		t69.GuardMappingList.add(grdT69);
 
 		t69.Delay = 0;
@@ -1972,7 +2054,7 @@ public class Intersection {
 		GuardMapping grdT6900 = new GuardMapping();
 		grdT6900.condition = T6900Ct1;
 		grdT6900.Activations.add(new Activation(t6900, "Five", TransitionOperation.DynamicDelay,""));
-		grdT6900.Activations.add(new Activation(t6900, "P_79", TransitionOperation.AddElement, "P_164"));
+		grdT6900.Activations.add(new Activation(t6900, "P_79", TransitionOperation.Move, "P_164"));
 		t6900.GuardMappingList.add(grdT6900);
 
 		t6900.Delay = 0;
@@ -1988,7 +2070,7 @@ public class Intersection {
 		GuardMapping grdT6901 = new GuardMapping();
 		grdT6901.condition = T6901Ct1;
 		grdT6901.Activations.add(new Activation(t6901, "Five", TransitionOperation.DynamicDelay,""));
-		grdT6901.Activations.add(new Activation(t6901, "P_80", TransitionOperation.AddElement, "P_165"));
+		grdT6901.Activations.add(new Activation(t6901, "P_80", TransitionOperation.Move, "P_165"));
 		t6901.GuardMappingList.add(grdT6901);
 
 		t6901.Delay = 0;
@@ -2006,8 +2088,8 @@ public class Intersection {
 
 		GuardMapping grdT67 = new GuardMapping();
 		grdT67.condition = T67Ct1;
-		grdT67.Activations.add(new Activation(t67, "P_165", TransitionOperation.AddElement, "P_81"));
-		grdT67.Activations.add(new Activation(t67, "P_80", TransitionOperation.AddElement, "P_81"));
+		grdT67.Activations.add(new Activation(t67, "P_165", TransitionOperation.Move, "P_81"));
+		grdT67.Activations.add(new Activation(t67, "P_80", TransitionOperation.Move, "P_81"));
 		t67.GuardMappingList.add(grdT67);
 
 		t67.Delay = 0;
@@ -2022,7 +2104,7 @@ public class Intersection {
 
 		GuardMapping grdT68 = new GuardMapping();
 		grdT68.condition = T68Ct1;
-		grdT68.Activations.add(new Activation(t68, "P_84", TransitionOperation.AddElement, "P_83"));
+		grdT68.Activations.add(new Activation(t68, "P_84", TransitionOperation.Move, "P_83"));
 		t68.GuardMappingList.add(grdT68);
 
 		t68.Delay = 0;
@@ -2037,8 +2119,8 @@ public class Intersection {
 
 		GuardMapping grdT70 = new GuardMapping();
 		grdT70.condition = T70Ct1;
-		grdT70.Activations.add(new Activation(t70, "P_83", TransitionOperation.AddElement, "P_82"));
-		grdT70.Activations.add(new Activation(t70, "P_82", TransitionOperation.AddElement, "P_83"));
+		grdT70.Activations.add(new Activation(t70, "P_83", TransitionOperation.Move, "P_82"));
+		grdT70.Activations.add(new Activation(t70, "P_82", TransitionOperation.Move, "P_83"));
 		t70.GuardMappingList.add(grdT70);
 
 		t70.Delay = 0;
@@ -2048,18 +2130,17 @@ public class Intersection {
 		PetriTransition t53 = new PetriTransition(pn);
 		t53.TransitionName = "T53";
 		t53.InputPlaceName.add("P_82");
-		t53.InputPlaceName.add("P_126");
 
 		Condition T53Ct1 = new Condition(t53, "P_82", TransitionCondition.NotNull);
-		Condition T53Ct2 = new Condition(t53, "P_126", TransitionCondition.NotNull);
+		Condition T53Ct2 = new Condition(t53, "P_82", TransitionCondition.IsPriorityCar);
 		T53Ct1.SetNextCondition(LogicConnector.AND, T53Ct2);
 
 		GuardMapping grdT53 = new GuardMapping();
 		grdT53.condition = T53Ct1;
-		grdT53.Activations.add(new Activation(t53, "P_82", TransitionOperation.AddElement, "P_126"));
-		grdT53.Activations.add(new Activation(t53, "P_82", TransitionOperation.AddElement, "P_6"));
-		grdT53.Activations.add(new Activation(t53, "P_126", TransitionOperation.AddElement, "P_82"));
-		grdT53.Activations.add(new Activation(t53, "P_126", TransitionOperation.AddElement, "P_6"));
+		grdT53.Activations.add(new Activation(t53, "P_82", TransitionOperation.Move, "P_126"));
+		grdT53.Activations.add(new Activation(t53, "P_82", TransitionOperation.Move, "P_6"));
+		grdT53.Activations.add(new Activation(t53, "P_126", TransitionOperation.Move, "P_82"));
+		grdT53.Activations.add(new Activation(t53, "P_126", TransitionOperation.Move, "P_6"));
 		t53.GuardMappingList.add(grdT53);
 
 		t53.Delay = 0;
@@ -2077,8 +2158,8 @@ public class Intersection {
 
 		GuardMapping grdT72 = new GuardMapping();
 		grdT72.condition = T72Ct1;
-		grdT72.Activations.add(new Activation(t72, "P_87", TransitionOperation.AddElement, "P_86"));
-		grdT72.Activations.add(new Activation(t72, "P_89", TransitionOperation.AddElement, "P_86"));
+		grdT72.Activations.add(new Activation(t72, "P_87", TransitionOperation.Move, "P_86"));
+		grdT72.Activations.add(new Activation(t72, "P_89", TransitionOperation.Move, "P_86"));
 		t72.GuardMappingList.add(grdT72);
 
 		t72.Delay = 0;
@@ -2093,8 +2174,8 @@ public class Intersection {
 
 		GuardMapping grdT71 = new GuardMapping();
 		grdT71.condition = T71Ct1;
-		grdT71.Activations.add(new Activation(t71, "P_86", TransitionOperation.AddElement, "P_85"));
-		grdT71.Activations.add(new Activation(t71, "P_85", TransitionOperation.AddElement, "P_86"));
+		grdT71.Activations.add(new Activation(t71, "P_86", TransitionOperation.Move, "P_85"));
+		grdT71.Activations.add(new Activation(t71, "P_85", TransitionOperation.Move, "P_86"));
 		t71.GuardMappingList.add(grdT71);
 
 		t71.Delay = 0;
@@ -2104,18 +2185,17 @@ public class Intersection {
 		PetriTransition t54 = new PetriTransition(pn);
 		t54.TransitionName = "T54";
 		t54.InputPlaceName.add("P_85");
-		t54.InputPlaceName.add("P_126");
 
 		Condition T54Ct1 = new Condition(t54, "P_85", TransitionCondition.NotNull);
-		Condition T54Ct2 = new Condition(t54, "P_126", TransitionCondition.NotNull);
-		T54Ct1.SetNextCondition(LogicConnector.AND, T54Ct2);
+		Condition T54Ct2 = new Condition(t54, "P_85", TransitionCondition.IsPriorityCar);
+		T54Ct1.SetNextCondition(LogicConnector.OR, T54Ct2);
 
 		GuardMapping grdT54 = new GuardMapping();
 		grdT54.condition = T54Ct1;
-		grdT54.Activations.add(new Activation(t54, "P_85", TransitionOperation.AddElement, "P_126"));
-		grdT54.Activations.add(new Activation(t54, "P_85", TransitionOperation.AddElement, "P_6"));
-		grdT54.Activations.add(new Activation(t54, "P_126", TransitionOperation.AddElement, "P_85"));
-		grdT54.Activations.add(new Activation(t54, "P_126", TransitionOperation.AddElement, "P_6"));
+		grdT54.Activations.add(new Activation(t54, "P_85", TransitionOperation.Move, "P_126"));
+		grdT54.Activations.add(new Activation(t54, "P_85", TransitionOperation.Move, "P_6"));
+		grdT54.Activations.add(new Activation(t54, "P_126", TransitionOperation.Move, "P_85"));
+		grdT54.Activations.add(new Activation(t54, "P_126", TransitionOperation.Move, "P_6"));
 		t54.GuardMappingList.add(grdT54);
 
 		t54.Delay = 0;
@@ -2130,7 +2210,7 @@ public class Intersection {
 
 		GuardMapping grdT86 = new GuardMapping();
 		grdT86.condition = T86Ct1;
-		grdT86.Activations.add(new Activation(t86, "P_6", TransitionOperation.AddElement, "P_123"));
+		grdT86.Activations.add(new Activation(t86, "P_6", TransitionOperation.Move, "P_123"));
 		t86.GuardMappingList.add(grdT86);
 
 		t86.Delay = 0;
@@ -2145,8 +2225,8 @@ public class Intersection {
 
 		GuardMapping grdT57 = new GuardMapping();
 		grdT86.condition = T57Ct1;
-		grdT86.Activations.add(new Activation(t57, "P_90", TransitionOperation.AddElement, "P_102"));
-		grdT86.Activations.add(new Activation(t57, "P_90", TransitionOperation.AddElement, "P_66"));
+		grdT86.Activations.add(new Activation(t57, "P_90", TransitionOperation.Move, "P_102"));
+		grdT86.Activations.add(new Activation(t57, "P_90", TransitionOperation.Move, "P_66"));
 		t57.GuardMappingList.add(grdT57);
 
 		t57.Delay = 0;
@@ -2167,14 +2247,14 @@ public class Intersection {
 
 		GuardMapping grdT88 = new GuardMapping();
 		grdT88.condition = T88Ct1;
-		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.AddElement, "P_130"));
-		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.AddElement, "P_131"));
-		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.AddElement, "P_133"));
-		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.AddElement, "P_130"));
-		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.AddElement, "P_131"));
-		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.AddElement, "P_133"));
-		grdT88.Activations.add(new Activation(t88, "P_133", TransitionOperation.AddElement, "P_130"));
-		grdT88.Activations.add(new Activation(t88, "P_133", TransitionOperation.AddElement, "P_131"));
+		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.Move, "P_130"));
+		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.Move, "P_131"));
+		grdT88.Activations.add(new Activation(t88, "P_94", TransitionOperation.Move, "P_133"));
+		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.Move, "P_130"));
+		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.Move, "P_131"));
+		grdT88.Activations.add(new Activation(t88, "P_95", TransitionOperation.Move, "P_133"));
+		grdT88.Activations.add(new Activation(t88, "P_133", TransitionOperation.Move, "P_130"));
+		grdT88.Activations.add(new Activation(t88, "P_133", TransitionOperation.Move, "P_131"));
 		t88.GuardMappingList.add(grdT88);
 
 		t88.Delay = 0;
@@ -2195,11 +2275,11 @@ public class Intersection {
 
 		GuardMapping grdT74 = new GuardMapping();
 		grdT74.condition = T74Ct1;
-		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.AddElement, "P_98"));
-		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.AddElement, "P_104"));
-		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.AddElement, "P_105"));
-		grdT74.Activations.add(new Activation(t74, "P_103", TransitionOperation.AddElement, "P_98"));
-		grdT74.Activations.add(new Activation(t74, "P_103", TransitionOperation.AddElement, "P_104"));
+		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.Move, "P_98"));
+		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.Move, "P_104"));
+		grdT74.Activations.add(new Activation(t74, "P_130", TransitionOperation.Move, "P_105"));
+		grdT74.Activations.add(new Activation(t74, "P_103", TransitionOperation.Move, "P_98"));
+		grdT74.Activations.add(new Activation(t74, "P_103", TransitionOperation.Move, "P_104"));
 		t74.GuardMappingList.add(grdT74);
 
 		t74.Delay = 0;
@@ -2217,8 +2297,8 @@ public class Intersection {
 
 		GuardMapping grdT75 = new GuardMapping();
 		grdT75.condition = T75Ct1;
-		grdT75.Activations.add(new Activation(t75, "P_131", TransitionOperation.AddElement, "P_99"));
-		grdT75.Activations.add(new Activation(t75, "P_168", TransitionOperation.AddElement, "P_99"));
+		grdT75.Activations.add(new Activation(t75, "P_131", TransitionOperation.Move, "P_99"));
+		grdT75.Activations.add(new Activation(t75, "P_168", TransitionOperation.Move, "P_99"));
 		t75.GuardMappingList.add(grdT75);
 
 		t75.Delay = 0;
@@ -2234,7 +2314,7 @@ public class Intersection {
 		GuardMapping grdT104 = new GuardMapping();
 		grdT104.condition = T104Ct1;
 		grdT104.Activations.add(new Activation(t104, "Five", TransitionOperation.DynamicDelay,""));
-		grdT104.Activations.add(new Activation(t104, "P_131", TransitionOperation.AddElement, "P_169"));
+		grdT104.Activations.add(new Activation(t104, "P_131", TransitionOperation.Move, "P_169"));
 		t104.GuardMappingList.add(grdT104);
 
 		t104.Delay = 0;
@@ -2250,7 +2330,7 @@ public class Intersection {
 		GuardMapping grdT105 = new GuardMapping();
 		grdT105.condition = T105Ct1;
 		grdT105.Activations.add(new Activation(t105, "Five", TransitionOperation.DynamicDelay,""));
-		grdT105.Activations.add(new Activation(t105, "P_100", TransitionOperation.AddElement, "P_131"));
+		grdT105.Activations.add(new Activation(t105, "P_100", TransitionOperation.Move, "P_131"));
 		t105.GuardMappingList.add(grdT105);
 
 		t105.Delay = 0;
@@ -2269,7 +2349,7 @@ public class Intersection {
 		GuardMapping grdT78 = new GuardMapping();
 		grdT78.condition = T78Ct1;
 		grdT78.Activations.add(new Activation(t78, "P_100", TransitionOperation.DynamicDelay,"P_135"));
-		grdT78.Activations.add(new Activation(t78, "P_169", TransitionOperation.AddElement, "P_135"));
+		grdT78.Activations.add(new Activation(t78, "P_169", TransitionOperation.Move, "P_135"));
 		t78.GuardMappingList.add(grdT78);
 
 		t78.Delay = 0;
@@ -2290,11 +2370,11 @@ public class Intersection {
 
 		GuardMapping grdT79 = new GuardMapping();
 		grdT79.condition = T79Ct1;
-		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.AddElement,"P_136"));
-		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.AddElement, "P_113"));
-		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.AddElement, "P_111"));
-		grdT79.Activations.add(new Activation(t79, "P_111", TransitionOperation.AddElement, "P_136"));
-		grdT79.Activations.add(new Activation(t79, "P_112", TransitionOperation.AddElement, "P_136"));
+		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.Move,"P_136"));
+		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.Move, "P_113"));
+		grdT79.Activations.add(new Activation(t79, "P_101", TransitionOperation.Move, "P_111"));
+		grdT79.Activations.add(new Activation(t79, "P_111", TransitionOperation.Move, "P_136"));
+		grdT79.Activations.add(new Activation(t79, "P_112", TransitionOperation.Move, "P_136"));
 		t79.GuardMappingList.add(grdT79);
 
 		t79.Delay = 0;
@@ -2315,13 +2395,13 @@ public class Intersection {
 
 		GuardMapping grdT87 = new GuardMapping();
 		grdT87.condition = T87Ct1;
-		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.AddElement,"P_139"));
-		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.AddElement,"P_137"));
-		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.AddElement,"P_138"));
-		grdT87.Activations.add(new Activation(t87, "P_137", TransitionOperation.AddElement,"P_136"));
-		grdT87.Activations.add(new Activation(t87, "P_138", TransitionOperation.AddElement,"P_136"));
-		grdT87.Activations.add(new Activation(t87, "P_135", TransitionOperation.AddElement, "P_96"));
-		grdT87.Activations.add(new Activation(t87, "P_140", TransitionOperation.AddElement, "P_97"));
+		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.Move,"P_139"));
+		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.Move,"P_137"));
+		grdT87.Activations.add(new Activation(t87, "P_136", TransitionOperation.Move,"P_138"));
+		grdT87.Activations.add(new Activation(t87, "P_137", TransitionOperation.Move,"P_136"));
+		grdT87.Activations.add(new Activation(t87, "P_138", TransitionOperation.Move,"P_136"));
+		grdT87.Activations.add(new Activation(t87, "P_135", TransitionOperation.Move, "P_96"));
+		grdT87.Activations.add(new Activation(t87, "P_140", TransitionOperation.Move, "P_97"));
 		t87.GuardMappingList.add(grdT87);
 
 		t87.Delay = 0;
@@ -2336,19 +2416,19 @@ public class Intersection {
 
 		GuardMapping grdT80 = new GuardMapping();
 		grdT80.condition = T80Ct1;
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_147"));
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_136"));
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_146"));
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_135"));
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_145"));
-		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.AddElement,"P_93"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_147"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_136"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_146"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_135"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_145"));
+		grdT80.Activations.add(new Activation(t80, "P_97", TransitionOperation.Move,"P_93"));
 
-		grdT80.Activations.add(new Activation(t80, "P_147", TransitionOperation.AddElement,"P_97"));
-		grdT80.Activations.add(new Activation(t80, "P_136", TransitionOperation.AddElement,"P_97"));
-		grdT80.Activations.add(new Activation(t80, "P_146", TransitionOperation.AddElement,"P_97"));
-		grdT80.Activations.add(new Activation(t80, "P_135", TransitionOperation.AddElement,"P_97"));
-		grdT80.Activations.add(new Activation(t80, "P_145", TransitionOperation.AddElement,"P_97"));
-		grdT80.Activations.add(new Activation(t80, "P_93", TransitionOperation.AddElement,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_147", TransitionOperation.Move,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_136", TransitionOperation.Move,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_146", TransitionOperation.Move,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_135", TransitionOperation.Move,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_145", TransitionOperation.Move,"P_97"));
+		grdT80.Activations.add(new Activation(t80, "P_93", TransitionOperation.Move,"P_97"));
 		t80.GuardMappingList.add(grdT80);
 
 		t80.Delay = 0;
@@ -2360,12 +2440,14 @@ public class Intersection {
 		t60.InputPlaceName.add("P_93");
 
 		Condition T60Ct1 = new Condition(t60, "P_93", TransitionCondition.NotNull);
+		Condition T60Ct2 = new Condition(t60, "P_93", TransitionCondition.IsPriorityCar);
+		T60Ct1.SetNextCondition(LogicConnector.AND, T60Ct2);
 
 		GuardMapping grdT60 = new GuardMapping();
 		grdT60.condition = T60Ct1;
-		grdT60.Activations.add(new Activation(t60, "P_93", TransitionOperation.AddElement,"P_125"));
-		grdT60.Activations.add(new Activation(t60, "P_125", TransitionOperation.AddElement,"P_93"));
-		grdT60.Activations.add(new Activation(t60, "P_93", TransitionOperation.AddElement,"P_6"));
+		grdT60.Activations.add(new Activation(t60, "P_93", TransitionOperation.Move,"P_125"));
+		grdT60.Activations.add(new Activation(t60, "P_125", TransitionOperation.Move,"P_93"));
+		grdT60.Activations.add(new Activation(t60, "P_93", TransitionOperation.Move,"P_6"));
 		t60.GuardMappingList.add(grdT60);
 
 		t60.Delay = 0;
@@ -2383,9 +2465,9 @@ public class Intersection {
 
 		GuardMapping grdT77 = new GuardMapping();
 		grdT77.condition = T77Ct1;
-		grdT77.Activations.add(new Activation(t77, "P_96", TransitionOperation.AddElement,"P_92"));
-		grdT77.Activations.add(new Activation(t77, "P_92", TransitionOperation.AddElement,"P_96"));
-		grdT77.Activations.add(new Activation(t77, "P_167", TransitionOperation.AddElement,"P_92"));
+		grdT77.Activations.add(new Activation(t77, "P_96", TransitionOperation.Move,"P_92"));
+		grdT77.Activations.add(new Activation(t77, "P_92", TransitionOperation.Move,"P_96"));
+		grdT77.Activations.add(new Activation(t77, "P_167", TransitionOperation.Move,"P_92"));
 		t77.GuardMappingList.add(grdT77);
 
 		t77.Delay = 0;
@@ -2401,7 +2483,7 @@ public class Intersection {
 		GuardMapping grdT103 = new GuardMapping();
 		grdT103.condition = T103Ct1;
 		grdT103.Activations.add(new Activation(t103, "Five", TransitionOperation.DynamicDelay,""));
-		grdT103.Activations.add(new Activation(t103, "P_96", TransitionOperation.AddElement, "P_167"));
+		grdT103.Activations.add(new Activation(t103, "P_96", TransitionOperation.Move, "P_167"));
 		t103.GuardMappingList.add(grdT103);
 
 		t103.Delay = 0;
@@ -2413,12 +2495,14 @@ public class Intersection {
 		t59.InputPlaceName.add("P_92");
 
 		Condition T59Ct1 = new Condition(t59, "P_92", TransitionCondition.NotNull);
+		Condition T59Ct2 = new Condition(t59, "P_92", TransitionCondition.IsPriorityCar);
+		T59Ct1.SetNextCondition(LogicConnector.AND, T59Ct2);
 
 		GuardMapping grdT59 = new GuardMapping();
 		grdT59.condition = T59Ct1;
-		grdT59.Activations.add(new Activation(t59, "P_92", TransitionOperation.AddElement, "P_6"));
-		grdT59.Activations.add(new Activation(t59, "P_92", TransitionOperation.AddElement, "P_125"));
-		grdT59.Activations.add(new Activation(t59, "P_125", TransitionOperation.AddElement, "P_92"));
+		grdT59.Activations.add(new Activation(t59, "P_92", TransitionOperation.Move, "P_6"));
+		grdT59.Activations.add(new Activation(t59, "P_92", TransitionOperation.Move, "P_125"));
+		grdT59.Activations.add(new Activation(t59, "P_125", TransitionOperation.Move, "P_92"));
 		t59.GuardMappingList.add(grdT59);
 
 		t59.Delay = 0;
